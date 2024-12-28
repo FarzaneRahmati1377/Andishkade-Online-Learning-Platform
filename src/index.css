@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "vazir";
+  src: url("./assets/fonts/Vazir-Medium.woff2") format("woff2"),
+       url("./assets/fonts/Vazir-Medium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  font-family: 'Vazir', sans-serif;
+  direction: rtl;
+  color: #4b5563;
+  background-color: #f9fafb;
+  width: 100%;
+  box-sizing: border-box
+}

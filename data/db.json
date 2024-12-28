@@ -1,0 +1,2899 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "enTitle": "programing",
+      "title": "برنامه نویسی",
+      "image": "",
+      "icon": "/src/assets/svg/programing-category.svg"
+    },
+    {
+      "id": "2",
+      "enTitle": "languages",
+      "title": "زبان های خارجی",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkNKpq_VE6WTV7mE6Bx1GmBlKTOrLiuLePvg&s",
+      "icon": "/src/assets/svg/language-category.svg"
+    },
+    {
+      "id": "3",
+      "enTitle": "it-software",
+      "title": "آی تی و نرم افزار",
+      "image": "data:image/jpeg;base64,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",
+      "icon": "/src/assets/svg/it-category.svg"
+    },
+    {
+      "id": "4",
+      "enTitle": "art",
+      "title": "هنر",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgJG63oqd8yotGWAVBFBJGEWDlHQH_QypzhA&s",
+      "icon": "/src/assets/svg/art-category.svg"
+    }
+  ],
+  "subCategories": [
+    {
+      "categoryId": 1,
+      "id": "1",
+      "enTitle": "programing-languages",
+      "title": "زبان های برنامه نویسی",
+      "image": "https://th.bing.com/th/id/OIP.9x3wkY79KtcVWfWrwX0M2wHaEO?w=330&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 1,
+      "id": "2",
+      "enTitle": "web-design",
+      "title": "طراحی سایت",
+      "image": "https://th.bing.com/th/id/OIP.hHRTl-_GdSywDQb_mgBLxgAAAA?w=284&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 1,
+      "id": "3",
+      "enTitle": "artificial-intelligence",
+      "title": "هوش مصنوعی",
+      "image": "https://th.bing.com/th/id/OIP.VwxXBbaRoNy-Nc_BpkYHcAHaEB?w=318&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 1,
+      "id": "4",
+      "enTitle": "database",
+      "title": "پایگاه داده",
+      "image": "https://th.bing.com/th/id/OIP.Wq1Kc7V505MGT18WJvTNLAHaEK?w=272&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 2,
+      "id": "5",
+      "enTitle": "english-language",
+      "title": "زبان انگلیسی",
+      "image": "https://th.bing.com/th/id/OIP.RFul-bKMjudteBD2_fk9PwHaDk?w=309&h=168&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 2,
+      "id": "6",
+      "enTitle": "german-language",
+      "title": "زبان آلمانی",
+      "image": "https://th.bing.com/th/id/OIP.ARVorSUXZsTHGVReYGzLtgHaDq?w=323&h=173&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 3,
+      "id": "7",
+      "enTitle": "it-application-software",
+      "title": "نرم افزار های کاربردی حوزه آی تی",
+      "image": "https://th.bing.com/th/id/OIP.k276MmvWrr9RrhdKsoUDZgHaEj?w=256&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 3,
+      "id": "8",
+      "enTitle": "operating-system",
+      "title": "سیستم عامل",
+      "image": "https://th.bing.com/th/id/OIP.mz3tMhYLjNRJ4jGqmDtBlgHaEC?w=304&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 3,
+      "id": "9",
+      "enTitle": "network-security",
+      "title": "امنیت شبکه",
+      "image": "https://th.bing.com/th/id/OIP.0YeENHt783snuyGtCAH7XAHaEO?w=304&h=180&c=7&r=0&o=5&pid=1.7"
+    },
+    {
+      "categoryId": 4,
+      "id": "10",
+      "enTitle": "photography",
+      "title": "عکاسی",
+      "image": "http://ts3.mm.bing.net/th?id=OIP.MYBXwqjBG1K3zIggNQN53QHaEK&pid=15.1"
+    },
+    {
+      "categoryId": 4,
+      "id": "11",
+      "enTitle": "painting",
+      "title": "نقاشی",
+      "image": "http://ts2.mm.bing.net/th?id=OIP.hC7F8n4ux0Zaol0OZ03v8QHaHa&pid=15.1"
+    },
+    {
+      "categoryId": 4,
+      "id": "12",
+      "enTitle": "calligraphy",
+      "title": "خوشنویسی"
+    }
+  ],
+  "courses": [
+    {
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "id": "1",
+      "teacherId": 1,
+      "title": "آموزش جاوااسکریپت مقدماتی",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfI-eyPRGtsV7Azz8bJmvqjDCTohy78Xm7uw&s",
+      "caption": "دوره آموزشی جاوا اسکریپت مقدماتی یک برنامه جامع برای یادگیری اصول اولیه JavaScript است که به مبتدیان کمک می‌کند تا مفاهیم اساسی این زبان را به‌طور عملی فراگیرند. در این دوره، دانشجویان با نحوه تعریف متغیرها، کار با داده‌ها، حلقه‌ها و شرط‌ها آشنا می‌شوند. علاوه بر این، مفاهیم توابع و نحوه استفاده از آن‌ها برای سازماندهی کد آموزش داده می‌شود. همچنین، دانشجویان با اصول DOM و نحوه تعامل با عناصر صفحه وب از طریق جاوا اسکریپت آشنا می‌شوند. این دوره به زبان‌آموزان کمک می‌کند تا پایه‌های محکمی برای پروژه‌های واقعی و پیچیده‌تر آینده بسازند. دوره معمولاً شامل تمرینات عملی و پروژه‌های کوچک است.",
+      "price": 350000,
+      "discount": 10,
+      "degree": "دارد",
+      "times": 60,
+      "rating": 4.1,
+      "creationDate": "1403/7/2",
+      "studentsCount": 120,
+      "target": [
+        "آموزش اصول اولیه برنامه‌نویسی با جاوا اسکریپت",
+        "ایجاد پایه‌ای قوی برای ورود به توسعه وب و یادگیری مباحث پیشرفته‌تر"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "id": "2",
+      "teacherId": 1,
+      "title": " آموزش جاوااسکریپت پیشرفته پروژه محور",
+      "image": "https://th.bing.com/th/id/OIP.BvPE_EtgwIO7AHHHCLv8UQHaEO?rs=1&pid=ImgDetMain",
+      "caption": "دوره آموزشی جاوا اسکریپت پیشرفته پروژه محور برای افرادی طراحی شده که با مفاهیم پایه JavaScript آشنا هستند و قصد دارند مهارت‌های خود را به سطح بالاتری ارتقا دهند. در این دوره، دانشجویان با مباحث پیچیده‌تری مانند مدیریت حافظه، عملکرد غیرهم‌زمان (async/await)، الگوهای طراحی، و مدیریت خطا آشنا می‌شوند. تمرکز اصلی دوره بر انجام پروژه‌های واقعی است که دانشجویان را به چالش می‌کشد و تجربه عملی فراهم می‌کند. علاوه بر این، مفاهیم پیشرفته‌تر مانند ماژول‌ها، برنامه‌نویسی تابعی و استفاده بهینه از APIهای مرورگر نیز آموزش داده می‌شود. دوره با هدف آماده‌سازی دانشجویان برای توسعه پروژه‌های بزرگ و مشارکت در تیم‌های حرفه‌ای توسعه طراحی شده است.",
+      "price": 450000,
+      "degree": "دارد",
+      "discount": 15,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/3/23",
+      "studentsCount": 90,
+      "target": [
+        "تسلط بر مفاهیم پیشرفته جاوا اسکریپت و بهبود مهارت‌های برنامه‌نویسی",
+        "ارائه تجربه عملی از طریق پروژه‌های واقعی"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "id": "3",
+      "teacherId": 3,
+      "title": "آموزش پایتون مقدماتی",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw1RYGf7W9gMVkToK6jZ2OzxaV_7vYJCfxQw&s",
+      "caption": "دوره آموزشی پایتون مقدماتی یک برنامه عالی برای افراد مبتدی است که قصد دارند برنامه‌نویسی با زبان Python را شروع کنند. در این دوره، دانشجویان با مفاهیم اصلی پایتون مانند متغیرها، انواع داده‌ها، شرط‌ها، حلقه‌ها و توابع آشنا می‌شوند. همچنین نحوه کار با فایل‌ها، مدیریت استثناها و استفاده از کتابخانه‌های استاندارد پایتون آموزش داده می‌شود. این دوره به‌طور عملی طراحی شده تا دانشجویان با انجام پروژه‌ها و تمرین‌های مختلف، مهارت‌های خود را تقویت کنند. مفاهیمی مانند لیست‌ها، دیکشنری‌ها و رشته‌ها به‌صورت جامع مورد بررسی قرار می‌گیرد. دوره مقدماتی پایتون پایه محکمی برای ادامه یادگیری مباحث پیشرفته‌تر و ورود به حوزه‌های مختلف مانند علم داده، هوش مصنوعی و توسعه وب فراهم می‌کند.",
+      "price": 0,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/7/3",
+      "studentsCount": 90,
+      "target": [
+        "آموزش مفاهیم پایه برنامه‌نویسی",
+        "ایجاد پایه‌ای قوی برای یادگیری مباحث پیشرفته"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "id": "4",
+      "teacherId": 3,
+      "title": "آموزش یادگیری ماشین با پایتون",
+      "image": "https://th.bing.com/th/id/OIP.Eg9jW7fz3svST0aYdI_OQgHaFG?w=279&h=192&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی یادگیری ماشین با پایتون به افرادی که با مفاهیم پایه پایتون آشنایی دارند، کمک می‌کند تا اصول و تکنیک‌های یادگیری ماشین را فرا بگیرند. این دوره به معرفی کتابخانه‌های قدرتمندی مانند NumPy، Pandas، Scikit-learn و TensorFlow می‌پردازد. دانشجویان در طول دوره با مفاهیمی مانند رگرسیون، طبقه‌بندی، خوشه‌بندی و الگوریتم‌های یادگیری نظارت‌شده و نظارت‌نشده آشنا می‌شوند. تمرین‌های عملی و پروژه‌های مختلف به دانشجویان کمک می‌کند تا مهارت‌های خود را در حل مسائل واقعی با داده‌های متنوع تقویت کنند. همچنین، نحوه ارزیابی و بهبود مدل‌های یادگیری ماشین و استفاده از تکنیک‌های بهینه‌سازی نیز آموزش داده می‌شود. این دوره پایه‌ای قوی برای ورود به حوزه‌های پیشرفته‌تری مانند یادگیری عمیق و هوش مصنوعی فراهم می‌کند.",
+      "price": 450000,
+      "degree": "دارد",
+      "discount": 15,
+      "times": 40,
+      "rating": 4.3,
+      "creationDate": "1403/5/20",
+      "studentsCount": 90,
+      "target": [
+        "آموزش مفاهیم و تکنیک‌های پایه یادگیری ماشین با استفاده از پایتون",
+        "ایجاد توانایی پیاده‌سازی پروژه‌های یادگیری ماشین و تحلیل داده‌های واقعی"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "id": "5",
+      "teacherId": 4,
+      "title": "آموزش c/c++",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBmO30zYK6j_aoVMG1HqlccJw_KdC9oGxJ9Q&s",
+      "caption": "دوره آموزشی زبان C/C++ یک برنامه جامع برای یادگیری اصول برنامه‌نویسی با این دو زبان پرکاربرد و قدرتمند است. دانشجویان در این دوره ابتدا با مفاهیم پایه‌ای مانند متغیرها، حلقه‌ها، شرط‌ها و توابع در زبان C آشنا می‌شوند. سپس با ویژگی‌های پیشرفته‌تر مانند مدیریت حافظه، اشاره‌گرها، و ساختارهای داده‌ای مانند لیست‌های پیوندی و صف‌ها کار می‌کنند. بخش C++ نیز مفاهیمی مانند شی‌ءگرایی، کلاس‌ها، وراثت و چندریختی را پوشش می‌دهد. این دوره با تمرین‌های عملی همراه است تا دانشجویان بتوانند پروژه‌های واقعی انجام دهند و مهارت‌های خود را تقویت کنند. در نهایت، این دوره پایه‌ای قوی برای توسعه نرم‌افزارهای پیچیده و بهینه فراهم می‌کند.",
+      "price": 450000,
+      "degree": "دارد",
+      "discount": 20,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1402/7/12",
+      "studentsCount": 60,
+      "target": [
+        "آموزش اصول و مفاهیم پایه برنامه‌نویسی با زبان‌های C و C++",
+        "ایجاد توانایی توسعه نرم‌افزارهای پیچیده و کار با ساختارهای داده‌ای پیشرفته"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "id": "6",
+      "teacherId": 2,
+      "title": "آموزش جامع php",
+      "image": "https://th.bing.com/th?id=OIP.9H4Fh1q8LoA8Txaxf38nsQHaD5&w=344&h=181&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
+      "caption": "دوره آموزشی جامع PHP یک برنامه کامل برای یادگیری زبان برنامه‌نویسی PHP است که به‌طور ویژه برای توسعه وب طراحی شده است. در این دوره، دانشجویان با مفاهیم پایه‌ای مانند سینتکس PHP، متغیرها، آرایه‌ها و توابع آشنا می‌شوند. همچنین، نحوه کار با پایگاه‌های داده با استفاده از MySQL و تکنیک‌های CRUD (ایجاد، خواندن، به‌روزرسانی و حذف) آموزش داده می‌شود. این دوره شامل مفاهیم پیشرفته‌تری مانند مدیریت جلسات، امنیت وب، و فریم‌ورک‌های محبوب مانند Laravel نیز هست. تمرین‌های عملی و پروژه‌های واقعی به دانشجویان کمک می‌کند تا مهارت‌های خود را در توسعه وب تقویت کنند. در نهایت، این دوره پایه‌ای قوی برای ورود به دنیای توسعه وب و پروژه‌های بزرگ فراهم می‌کند.",
+      "price": 640000,
+      "degree": "دارد",
+      "discount": 10,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/9/16",
+      "studentsCount": 90,
+      "target": [
+        "آموزش اصول و مفاهیم برنامه‌نویسی وب با استفاده از PHP و MySQL",
+        "ایجاد توانایی توسعه و پیاده‌سازی وب‌سایت‌های داینامیک و کاربردی"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 1,
+      "id": "7",
+      "teacherId": 1,
+      "title": "آموزش شی گرایی در جاوااسکریپت",
+      "image": "https://th.bing.com/th/id/OIP.tEfB9QeuhVrN7Ud6An2aCQHaEK?w=315&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی شی‌گرایی در جاوا اسکریپت به یادگیری اصول و مفاهیم برنامه‌نویسی شی‌گرا در این زبان پرداخته و به دانشجویان کمک می‌کند تا با ساختار و الگوهای طراحی مدرن آشنا شوند. در این دوره، مفاهیمی مانند کلاس‌ها، اشیاء، وراثت، و چندریختی به‌طور جامع آموزش داده می‌شود. دانشجویان با روش‌های ایجاد و مدیریت اشیاء و کلاس‌ها در جاوا اسکریپت، از جمله استفاده از ES6، آشنا می‌شوند. همچنین، این دوره به بررسی الگوهای طراحی شی‌گرا مانند Singleton و Factory می‌پردازد. تمرین‌های عملی و پروژه‌های واقعی به یادگیری بهتر کمک کرده و امکان پیاده‌سازی مفاهیم را در پروژه‌های خود فراهم می‌کند. این دوره به دانشجویان کمک می‌کند تا توانایی‌های خود را در ساخت نرم‌افزارهای مقیاس‌پذیر و قابل نگهداری تقویت کنند.",
+      "price": 0,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/9/15",
+      "studentsCount": 90,
+      "target": [
+        "آموزش اصول و مفاهیم برنامه‌نویسی شی‌گرا در جاوا اسکریپت",
+        "تقویت توانایی طراحی و پیاده‌سازی نرم‌افزارهای مقیاس‌پذیر و قابل نگهداری"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "id": "8",
+      "teacherId": 6,
+      "title": "آموزش next js",
+      "image": "https://th.bing.com/th/id/OIP.Q0a2VbmYVFFNotYl8xs0zAHaE8?w=268&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی Next.js یک برنامه جامع برای یادگیری این فریم‌ورک قدرتمند React است که به‌طور خاص برای توسعه برنامه‌های وب مدرن و مقیاس‌پذیر طراحی شده است. در این دوره، دانشجویان با مفاهیم اصلی Next.js مانند رندرینگ سمت سرور (SSR)، رندرینگ ایستا (Static Rendering)، و مسیرهای داینامیک آشنا می‌شوند. همچنین، نحوه مدیریت داده‌ها با استفاده از API Routes و نحوه بهینه‌سازی صفحات وب برای عملکرد بهتر نیز آموزش داده می‌شود. تمرکز بر روی ویژگی‌هایی مانند فایل سیستم روتینگ، استایل‌دهی و مدیریت استیت با React کمک می‌کند تا پروژه‌های واقعی و پیچیده ایجاد شود. این دوره برای توسعه‌دهندگانی مناسب است که قصد دارند تجربه خود را در ساخت وب‌سایت‌های سریع، سئو-دوست و کارآمد گسترش دهند.",
+      "price": 549000,
+      "degree": "دارد",
+      "discount": 7,
+      "times": 40,
+      "rating": 4.1,
+      "creationDate": "1403/6/18",
+      "studentsCount": 90,
+      "target": [
+        "آموزش مفاهیم و قابلیت‌های پیشرفته Next.js برای توسعه برنامه‌های وب مدرن",
+        "ایجاد توانایی پیاده‌سازی پروژه‌های بهینه و مقیاس‌پذیر با رندرینگ سمت سرور و استاتیک"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "id": "9",
+      "teacherId": 6,
+      "title": "آموزش React js",
+      "image": "https://th.bing.com/th/id/OIP.zSpmMQqJdRpRKyD4-YpZGAHaEO?w=305&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی React.js یک برنامه جامع برای یادگیری این کتابخانه قدرتمند جاوااسکریپت است که به توسعه رابط‌های کاربری تعاملی و پویا کمک می‌کند. در این دوره، دانشجویان با مفاهیم پایه‌ای React مانند کامپوننت‌ها، پراپس، و استیت آشنا می‌شوند. همچنین، مفاهیم پیشرفته‌تری مانند مدیریت استیت با استفاده از hooks (مانند useState و useEffect)، رندرینگ شرطی، و کار با روترها برای ایجاد SPA (برنامه‌های تک‌صفحه‌ای) آموزش داده می‌شود. این دوره شامل تمرین‌ها و پروژه‌های عملی است که به دانشجویان کمک می‌کند مهارت‌های خود را به‌طور عملی در پروژه‌های واقعی پیاده‌سازی کنند. علاوه بر این، نحوه ادغام APIها و کار با RESTful و GraphQL نیز در این دوره بررسی می‌شود. هدف نهایی دوره، تسلط بر توسعه رابط‌های کاربری سریع و مقیاس‌پذیر با React.js است.",
+      "price": 730000,
+      "degree": "دارد",
+      "discount": 15,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/9/12",
+      "studentsCount": 90,
+      "target": [
+        "آموزش مفاهیم پایه و پیشرفته React.js برای توسعه رابط‌های کاربری تعاملی و پویا",
+        "ایجاد توانایی پیاده‌سازی پروژه‌های SPA و استفاده از ابزارهای مدرن برای مدیریت استیت و APIها"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "id": "10",
+      "teacherId": 7,
+      "title": "آموزش Angular",
+      "image": "https://th.bing.com/th/id/OIP.u3mgmYMq4ofTd4lBtZtbxQHaD4?w=321&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی Angular یک برنامه کامل برای یادگیری این فریم‌ورک محبوب جاوااسکریپت است که به‌طور خاص برای توسعه برنامه‌های وب پویا و پیچیده طراحی شده است. در این دوره، دانشجویان با مفاهیم پایه‌ای Angular مانند کامپوننت‌ها، ماژول‌ها، و سرویس‌ها آشنا می‌شوند. همچنین، مفاهیم پیشرفته‌تری مانند مدیریت استیت، Dependency Injection (تزریق وابستگی)، و مسیریابی (Routing) برای ساخت برنامه‌های تک‌صفحه‌ای (SPA) آموزش داده می‌شود. دوره شامل تمرین‌های عملی و پروژه‌های واقعی است که به دانشجویان کمک می‌کند تا توانایی خود را در توسعه برنامه‌های مقیاس‌پذیر تقویت کنند. Angular CLI و مفاهیمی مانند RxJS برای مدیریت رویدادها و داده‌های غیرهم‌زمان نیز پوشش داده می‌شود. این دوره دانشجویان را برای توسعه نرم‌افزارهای پیشرفته با کارایی بالا آماده می‌کند.",
+      "price": 640000,
+      "degree": "دارد",
+      "discount": 8,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/4/5",
+      "studentsCount": 90,
+      "target": [
+        "آموزش مفاهیم پایه و پیشرفته Angular برای توسعه برنامه‌های وب پویا و مقیاس‌پذیر",
+        "ایجاد توانایی پیاده‌سازی برنامه‌های تک‌صفحه‌ای (SPA) با استفاده از ابزارهای Angular و RxJS"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 2,
+      "id": "11",
+      "teacherId": 9,
+      "title": "آموزش node js",
+      "image": "https://th.bing.com/th/id/OIP.aXM-E8NR8K2Icz-ro-EoygHaEK?w=316&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی Node.js به یادگیری این محیط اجرایی جاوااسکریپت برای توسعه برنامه‌های سمت سرور اختصاص دارد. در این دوره، دانشجویان با اصول اولیه Node.js مانند مدیریت فایل‌ها، ماژول‌ها، و رویدادها آشنا می‌شوند. سپس مفاهیم پیشرفته‌تری مانند مدیریت درخواست‌های HTTP، ساخت APIهای RESTful، و کار با پایگاه‌های داده مانند MongoDB و MySQL آموزش داده می‌شود. این دوره به دانشجویان کمک می‌کند تا برنامه‌های مقیاس‌پذیر و کارآمد سمت سرور را با استفاده از Node.js و فریم‌ورک‌هایی مانند Express.js توسعه دهند. تمرین‌های عملی و پروژه‌های واقعی در این دوره به تقویت مهارت‌های برنامه‌نویسی و مدیریت سیستم‌های سروری کمک می‌کند. همچنین، مفاهیم امنیت و بهینه‌سازی عملکرد در برنامه‌های Node.js پوشش داده می‌شود.",
+      "price": 725000,
+      "degree": "دارد",
+      "discount": 10,
+      "times": 20,
+      "rating": 3.6,
+      "creationDate": "1403/6/19",
+      "studentsCount": 90,
+      "target": [
+        "آموزش اصول و مفاهیم توسعه سمت سرور با Node.js برای ساخت برنامه‌های مقیاس‌پذیر",
+        "ایجاد توانایی پیاده‌سازی APIهای RESTful و کار با پایگاه‌های داده در برنامه‌های سروری"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "id": "12",
+      "teacherId": 8,
+      "title": "آموزش Chat Gpt",
+      "image": "https://th.bing.com/th/id/OIP.bl58L4pxWbT16zR6Z1UDSQHaEK?w=290&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی ChatGPT به معرفی و آموزش نحوه استفاده از مدل‌های زبان بزرگ (LLMs) مانند ChatGPT می‌پردازد. در این دوره، دانشجویان با اصول کار مدل‌های هوش مصنوعی و پردازش زبان طبیعی (NLP) آشنا می‌شوند. نحوه تعامل با این مدل‌ها برای تولید متن، پاسخ به سوالات، ترجمه زبان و انجام وظایف مختلف به‌طور جامع آموزش داده می‌شود. علاوه بر این، استفاده از APIهای OpenAI و پیاده‌سازی ChatGPT در پروژه‌های مختلف نرم‌افزاری نیز بررسی می‌شود. تمرین‌های عملی و مثال‌های کاربردی به دانشجویان کمک می‌کند تا مدل را به‌طور بهینه در حوزه‌های مختلف مانند پشتیبانی مشتری، تولید محتوا، و تحلیل داده‌ها به‌کار گیرند. این دوره به تقویت مهارت‌های دانشجویان در استفاده از هوش مصنوعی و بهینه‌سازی کارایی مدل‌های زبانی کمک می‌کند.",
+      "price": 0,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 10,
+      "rating": 3.6,
+      "creationDate": "1403/9/13",
+      "studentsCount": 90,
+      "target": [
+        "آموزش نحوه استفاده از مدل‌های زبانی مانند ChatGPT برای تولید متن و حل مسائل پیچیده",
+        "ایجاد توانایی پیاده‌سازی ChatGPT در پروژه‌های نرم‌افزاری و به‌کارگیری آن در حوزه‌های مختلف"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "id": "13",
+      "teacherId": 8,
+      "title": "آموزش دوره فشرده پرامت نویسی",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStGkkiCMHQgOcjYXQ1jeC0sNnD0ahvdeD_4A&s",
+      "caption": "دوره فشرده پرامت‌نویسی به هدف آموزش سریع و جامع اصول و تکنیک‌های پرامت‌نویسی در زبان‌های برنامه‌نویسی مختلف طراحی شده است. در این دوره، دانشجویان با مباحث پایه‌ای مانند طراحی الگوریتم‌ها، بهینه‌سازی کد و اصول خوانایی کد آشنا می‌شوند. همچنین، تکنیک‌های پیشرفته‌ای مانند مدیریت استثناها، استفاده از کتابخانه‌ها و فریم‌ورک‌ها، و به‌کارگیری الگوهای طراحی در پروژه‌های واقعی بررسی می‌شود. این دوره به‌طور ویژه برای افرادی طراحی شده که می‌خواهند در مدت زمان کوتاه مهارت‌های خود را در زمینه پرامت‌نویسی تقویت کنند. تمرین‌های عملی و پروژه‌های واقعی به دانشجویان کمک می‌کند تا مفاهیم را به‌صورت کاربردی فراگیرند و توانایی‌های خود را بهبود بخشند. در نهایت، این دوره به آماده‌سازی دانشجویان برای ورود به بازار کار و پروژه‌های واقعی کمک می‌کند.",
+      "price": 220000,
+      "degree": "دارد",
+      "discount": 5,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1402/9/9",
+      "studentsCount": 90,
+      "target": [
+        "آموزش سریع و جامع اصول و تکنیک‌های پرامت‌نویسی برای بهبود کیفیت کد",
+        "تقویت مهارت‌های عملی از طریق تمرین‌ها و پروژه‌های واقعی برای آمادگی ورود به بازار کار"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 3,
+      "id": "14",
+      "teacherId": 8,
+      "title": "آموزش دوره هوش مصنوعی با نرم افزار متلب",
+      "image": "https://th.bing.com/th/id/OIP.hyN5PLG-6f991OaZYzubowHaE8?w=249&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی هوش مصنوعی با نرم‌افزار متلب به هدف آموزش مفاهیم و تکنیک‌های هوش مصنوعی با استفاده از ابزارهای قدرتمند متلب طراحی شده است. در این دوره، دانشجویان با مباحث پایه‌ای مانند یادگیری ماشین، شبکه‌های عصبی و الگوریتم‌های تکاملی آشنا می‌شوند. همچنین، تکنیک‌های پیشرفته‌تری مانند یادگیری عمیق و پردازش داده‌های بزرگ نیز بررسی می‌شود. این دوره شامل مثال‌ها و پروژه‌های عملی است که به دانشجویان کمک می‌کند تا توانایی‌های خود را در پیاده‌سازی الگوریتم‌های هوش مصنوعی تقویت کنند. نرم‌افزار متلب به‌عنوان ابزاری کارآمد برای تحلیل داده و مدل‌سازی استفاده می‌شود. دانشجویان همچنین با مفاهیمی مانند ارزیابی مدل‌ها و بهینه‌سازی عملکرد آشنا می‌شوند. در نهایت، این دوره به آماده‌سازی دانشجویان برای استفاده از هوش مصنوعی در پروژه‌های واقعی و حل مسائل پیچیده کمک می‌کند.",
+      "price": 325000,
+      "degree": "دارد",
+      "discount": 8,
+      "times": 15,
+      "rating": 3.6,
+      "creationDate": "1402/8/12",
+      "studentsCount": 90,
+      "target": [
+        "آموزش مفاهیم و تکنیک‌های هوش مصنوعی با استفاده از نرم‌افزار متلب",
+        "تقویت توانایی پیاده‌سازی الگوریتم‌های هوش مصنوعی و تحلیل داده‌های بزرگ در پروژه‌های واقعی"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 4,
+      "id": "15",
+      "teacherId": 9,
+      "title": "آموزش MySQL",
+      "image": "https://th.bing.com/th/id/OIP.LvJiXW0ldtBwCwC5TBSh4QHaEK?w=283&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی MySQL یک برنامه جامع برای یادگیری سیستم مدیریت پایگاه داده‌های رابطه‌ای MySQL است که به‌طور خاص برای ذخیره‌سازی و مدیریت داده‌ها طراحی شده است. در این دوره، دانشجویان با مفاهیم پایه‌ای مانند طراحی پایگاه داده، جداول، و نوع‌های داده آشنا می‌شوند. همچنین، نحوه نوشتن کوئری‌های SQL برای انجام عملیات مختلف مانند انتخاب، درج، به‌روزرسانی و حذف داده‌ها آموزش داده می‌شود. دانشجویان با تکنیک‌های پیشرفته‌تری مانند جوین‌ها، زیرپرسش‌ها و ایندکس‌گذاری نیز آشنا می‌شوند. این دوره شامل تمرین‌های عملی و پروژه‌های واقعی است که به تقویت مهارت‌های مدیریت پایگاه داده کمک می‌کند. همچنین، مفاهیمی مانند امنیت داده‌ها، پشتیبان‌گیری و بازیابی نیز بررسی می‌شود. در نهایت، این دوره به دانشجویان کمک می‌کند تا توانایی‌های خود را در استفاده از MySQL در پروژه‌های واقعی تقویت کنند.",
+      "price": 450000,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/2/11",
+      "studentsCount": 90,
+      "target": [
+        "آموزش اصول و مدیریت پایگاه داده با استفاده از mysql",
+        "تقویت توانایی نوشتن کوئری‌های SQL و مدیریت داده‌ها در پروژه‌های واقعی"
+      ]
+    },
+    {
+      "categoryId": 1,
+      "subCategoryId": 4,
+      "id": "16",
+      "teacherId": 9,
+      "title": "آموزش Mongo DB",
+      "image": "https://th.bing.com/th/id/OIP.iWsHU_6Lw7Ss3zTt95gQZgHaD8?w=338&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی MongoDB یک برنامه جامع برای یادگیری سیستم مدیریت پایگاه داده غیررابطه‌ای MongoDB است که به‌طور خاص برای ذخیره و مدیریت داده‌های ساختار نیافته و نیمه‌ساختار یافته طراحی شده است. در این دوره، دانشجویان با مفاهیم پایه‌ای مانند طراحی پایگاه داده‌های NoSQL، مستندات، و مجموعه‌ها آشنا می‌شوند. همچنین، نحوه نوشتن کوئری‌های MongoDB برای انجام عملیات مختلف مانند جستجو، درج، به‌روزرسانی و حذف مستندات آموزش داده می‌شود. دانشجویان با تکنیک‌های پیشرفته‌تری مانند ایندکس‌گذاری، خوشه‌بندی، و کار با Aggregation Framework نیز آشنا می‌شوند. این دوره شامل تمرین‌های عملی و پروژه‌های واقعی است که به تقویت مهارت‌های مدیریت داده در MongoDB کمک می‌کند. همچنین، مفاهیمی مانند امنیت، پشتیبان‌گیری و بهینه‌سازی عملکرد نیز بررسی می‌شود. در نهایت، این دوره به دانشجویان کمک می‌کند تا توانایی‌های خود را در استفاده از MongoDB در پروژه‌های واقعی تقویت کنند.",
+      "price": 450000,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/9/15",
+      "studentsCount": 90,
+      "target": [
+        "آموزش اصول و تکنیک‌های مدیریت پایگاه داده با استفاده از MongoDB",
+        "تقویت توانایی نوشتن کوئری‌های MongoDB و مدیریت داده‌های غیررابطه‌ای در پروژه‌های واقعی"
+      ]
+    },
+    {
+      "categoryId": 2,
+      "subCategoryId": 5,
+      "id": "17",
+      "teacherId": 10,
+      "title": "آموزش گرامر زبان انگلیسی",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIv0tvkV8cFgCaQK8NN_U_m2ZNrzuaoQlDkA&s",
+      "caption": "دوره آموزشی گرامر زبان انگلیسی به هدف یادگیری قواعد و ساختارهای زبانی طراحی شده است و برای تمامی سطوح زبان‌آموزان مناسب است. در این دوره، دانشجویان با مباحث پایه‌ای مانند زمان‌ها، جملات ساده و مرکب، و اجزای جمله آشنا می‌شوند. همچنین، قواعد پیشرفته‌تری مانند حالت‌های مختلف فعل، صفت‌ها و قیدها، و نحوه استفاده صحیح از حروف اضافه آموزش داده می‌شود. تمرین‌های کاربردی و فعالیت‌های تعاملی در این دوره به تقویت درک و توانایی‌های نوشتاری و گفتاری زبان‌آموزان کمک می‌کند. دانشجویان همچنین با روش‌های درست استفاده از گرامر در مکالمات روزمره و نوشتار رسمی آشنا می‌شوند. در نهایت، این دوره به زبان‌آموزان کمک می‌کند تا مهارت‌های گرامری خود را بهبود بخشند و اعتماد به نفس بیشتری در استفاده از زبان انگلیسی پیدا کنند.",
+      "price": 450000,
+      "degree": "دارد",
+      "discount": 6,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1403/4/22",
+      "studentsCount": 90,
+      "target": [
+        "آموزش قواعد و ساختارهای گرامری زبان انگلیسی برای تمامی سطوح زبان‌آموزان",
+        "تقویت مهارت‌های نوشتاری و گفتاری از طریق تمرین‌های کاربردی و فعالیت‌های تعاملی"
+      ]
+    },
+    {
+      "categoryId": 2,
+      "subCategoryId": 5,
+      "id": "18",
+      "teacherId": 10,
+      "title": "آموزش جامع زبان انگلیسی",
+      "image": "https://th.bing.com/th/id/OIP.9My0DIxEEoTYNfyGXs7CCAHaDt?w=350&h=175&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی جامع زبان انگلیسی یک برنامه کامل برای یادگیری این زبان بین‌المللی است که به‌طور خاص برای تمام سطوح زبان‌آموزان طراحی شده است. در این دوره، دانشجویان با مهارت‌های چهارگانه زبان یعنی خواندن، نوشتن، شنیدن و گفتن آشنا می‌شوند. مباحث شامل گرامر، واژگان، تلفظ، و ساختار جملات است که به‌طور جامع بررسی می‌شود. تمرین‌های تعاملی، کار گروهی، و پروژه‌های عملی به دانشجویان کمک می‌کند تا مهارت‌های زبانی خود را در محیط‌های واقعی تقویت کنند. همچنین، استفاده از منابع چندرسانه‌ای مانند فیلم‌ها، آهنگ‌ها و مقالات به یادگیری بیشتر کمک می‌کند. در این دوره، فرهنگ کشورهای انگلیسی‌زبان نیز معرفی می‌شود تا دانشجویان درک بهتری از زبان و بافت اجتماعی آن پیدا کنند. هدف نهایی دوره، آماده‌سازی زبان‌آموزان برای استفاده از زبان انگلیسی در زندگی روزمره، تحصیل و حرفه است.",
+      "price": 830000,
+      "degree": "دارد",
+      "discount": 10,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1402/10/13",
+      "studentsCount": 90,
+      "target": [
+        "آموزش مهارت‌های چهارگانه زبان انگلیسی (خواندن، نوشتن، شنیدن، و گفتن) به‌طور جامع",
+        "تقویت توانایی زبان‌آموزان برای استفاده از زبان انگلیسی در زندگی روزمره، تحصیل و حرفه"
+      ]
+    },
+    {
+      "categoryId": 2,
+      "subCategoryId": 5,
+      "id": "19",
+      "teacherId": 10,
+      "title": "آموزش اسپیکینگ زبان انگلیسی",
+      "image": "https://th.bing.com/th/id/OIP.6m-AHzpHTdfFa58X9UrlFwHaEo?w=265&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی اسپیکینگ زبان انگلیسی به هدف تقویت مهارت گفتاری زبان‌آموزان طراحی شده است و به تمامی سطوح زبان‌آموزان کمک می‌کند. در این دوره، دانشجویان با تکنیک‌های موثر برای بهبود تلفظ، روانی گفتار و اعتماد به نفس در مکالمه آشنا می‌شوند. مباحث شامل موضوعات مختلف روزمره، مکالمات رسمی و غیررسمی، و تکنیک‌های گوش دادن فعال است. تمرین‌های گروهی، بازی‌های نقش‌آفرینی و مباحثه‌های فعال به تقویت مهارت‌های گفتاری کمک می‌کند. همچنین، استفاده از منابع صوتی و تصویری برای ایجاد موقعیت‌های واقعی مکالمه در نظر گرفته می‌شود. در این دوره، زبان‌آموزان یاد می‌گیرند که چگونه نظرات و ایده‌های خود را به‌طور مؤثر بیان کنند. هدف نهایی دوره، افزایش تسلط زبان‌آموزان بر زبان انگلیسی در مکالمات روزمره و حرفه‌ای است.",
+      "price": 0,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 5,
+      "creationDate": "1402/8/17",
+      "studentsCount": 90,
+      "target": [
+        "تقویت مهارت گفتاری و افزایش اعتماد به نفس زبان‌آموزان در مکالمه به زبان انگلیسی",
+        "آموزش تکنیک‌های مؤثر برای بهبود تلفظ و روانی گفتار در موقعیت‌های مختلف"
+      ]
+    },
+    {
+      "categoryId": 2,
+      "subCategoryId": 6,
+      "id": "20",
+      "teacherId": 5,
+      "title": " آموزش  زبان آلمانی",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9zkOcHGzGx92W1wdZ9-1VgXdQEQBdY9xuQA&s",
+      "caption": "دوره آموزشی جامع زبان آلمانی یک برنامه کامل برای یادگیری این زبان است که به‌طور خاص برای تمامی سطوح زبان‌آموزان طراحی شده است. در این دوره، دانشجویان با مهارت‌های چهارگانه زبان یعنی خواندن، نوشتن، شنیدن و گفتن آشنا می‌شوند. مباحث شامل گرامر، واژگان، تلفظ و ساختار جملات است که به‌طور جامع بررسی می‌شود. تمرین‌های تعاملی، کار گروهی و پروژه‌های عملی به زبان‌آموزان کمک می‌کند تا مهارت‌های زبانی خود را در محیط‌های واقعی تقویت کنند. همچنین، استفاده از منابع چندرسانه‌ای مانند فیلم‌ها، آهنگ‌ها و مقالات به یادگیری بیشتر کمک می‌کند. در این دوره، فرهنگ کشورهای آلمانی‌زبان نیز معرفی می‌شود تا دانشجویان درک بهتری از زبان و بافت اجتماعی آن پیدا کنند. هدف نهایی دوره، آماده‌سازی زبان‌آموزان برای استفاده از زبان آلمانی در زندگی روزمره، تحصیل و حرفه است.",
+      "price": 420000,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1401/4/16",
+      "studentsCount": 50,
+      "target": [
+        "آموزش مهارت‌های چهارگانه زبان آلمانی (خواندن، نوشتن، شنیدن و گفتن) به‌طور جامع",
+        "تقویت توانایی زبان‌آموزان برای استفاده از زبان آلمانی در زندگی روزمره، تحصیل و حرفه"
+      ]
+    },
+    {
+      "categoryId": 3,
+      "subCategoryId": 7,
+      "id": "21",
+      "teacherId": 5,
+      "title": " آموزش جامع  Microsoft Word",
+      "image": "https://th.bing.com/th/id/OIP.U0KdSsbZWNLEqfwbmqEgygHaEK?w=302&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزشی نرم‌افزار ورد به کاربران کمک می‌کند تا مهارت‌های لازم برای استفاده از این نرم‌افزار پردازش متن را کسب کنند. در این دوره، کاربران با رابط کاربری ورد آشنا می‌شوند و نحوه ایجاد و ویرایش متون را می‌آموزند. همچنین، روش‌های قالب‌بندی متن، ایجاد جداول و نمودارها، و تنظیمات مختلف صفحات مانند حاشیه‌ها و سرصفحه‌ها آموزش داده می‌شود. علاوه بر این، دوره شامل آموزش کار با تصاویر و اشکال، فهرست‌بندی خودکار، شماره‌گذاری صفحات و استفاده از استایل‌های مختلف است. شرکت‌کنندگان در این دوره یاد می‌گیرند چگونه منابع و مراجع علمی را به اسناد اضافه کنند و تنظیمات مربوط به چاپ و ذخیره‌سازی فایل‌ها در فرمت‌های مختلف مانند PDF را انجام دهند. در نهایت، اشتراک‌گذاری اسناد و همکاری گروهی نیز از جمله مباحث مهم این دوره است که به کاربران امکان می‌دهد با دیگران بر روی اسناد همکاری کرده و تغییرات را مدیریت کنند.",
+      "price": 0,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1401/5/26",
+      "studentsCount": 50,
+      "target": [
+        "افزایش مهارت کاربران در استفاده حرفه‌ای از نرم‌افزار ورد برای ایجاد و ویرایش مستندات.",
+        "توانمندسازی کاربران در مدیریت و قالب‌بندی اسناد به‌صورت کارآمد و حرفه‌ای."
+      ]
+    },
+    {
+      "categoryId": 3,
+      "subCategoryId": 7,
+      "id": "22",
+      "teacherId": 5,
+      "title": " آموزش جامع  Microsoft Excel",
+      "image": "https://th.bing.com/th/id/OIP.FaxRlAE2pDwzUMeJWt5BbwHaDt?w=320&h=175&c=7&r=0&o=5&pid=1.7",
+      "caption": "آموزش نرم‌افزار اکسل (Microsoft Excel) به کاربران کمک می‌کند تا مهارت‌های لازم برای کار با این نرم‌افزار صفحه‌گسترده را کسب کنند. در این دوره، کاربران یاد می‌گیرند چگونه صفحات کاری ایجاد و مدیریت کنند و داده‌ها را در سلول‌ها وارد کنند. از دیگر موضوعات مهم این دوره، نحوه استفاده از فرمول‌ها و توابع برای محاسبات ریاضی و آماری است. همچنین، کاربران با نحوه مرتب‌سازی و فیلتر کردن داده‌ها، استفاده از نمودارها برای نمایش تصویری اطلاعات، و ایجاد جداول محوری (Pivot Tables) آشنا می‌شوند. مباحث پیشرفته‌تر شامل مدیریت داده‌های بزرگ، فرمت‌بندی شرطی، و تحلیل داده‌ها است. علاوه بر این، تنظیمات چاپ، خروجی گرفتن از فایل‌ها و اشتراک‌گذاری صفحات اکسل به کاربران آموزش داده می‌شود. این دوره برای مبتدیان طراحی شده اما کاربران متوسط و پیشرفته نیز می‌توانند از مباحث تکمیلی بهره‌مند شوند.",
+      "price": 210000,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1401/2/11",
+      "studentsCount": 50,
+      "target": [
+        "افزایش مهارت کاربران در انجام محاسبات و تحلیل داده‌ها با استفاده از فرمول‌ها و توابع اکسل.",
+        "توانمندسازی کاربران در مدیریت و بصری‌سازی داده‌ها برای تصمیم‌گیری‌های کارآمد."
+      ]
+    },
+    {
+      "categoryId": 3,
+      "subCategoryId": 8,
+      "id": "23",
+      "teacherId": 5,
+      "title": " آموزش سیستم عامل Windows",
+      "image": "https://th.bing.com/th/id/OIP.juUpXCDaeAJrywH7sdLvmQHaEK?w=306&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزش سیستم‌عامل ویندوز به کاربران کمک می‌کند تا با مفاهیم و مهارت‌های لازم برای استفاده از این سیستم‌عامل آشنا شوند. در این دوره، کاربران یاد می‌گیرند چگونه با رابط کاربری ویندوز، شامل منوی استارت، نوار وظیفه، و دسکتاپ کار کنند. نحوه مدیریت فایل‌ها و پوشه‌ها از طریق فایل اکسپلورر و استفاده از قابلیت‌های کپی، انتقال، و حذف فایل‌ها از دیگر مباحث مهم است. کاربران با تنظیمات سیستم مانند تغییر پس‌زمینه، مدیریت صدا، و تنظیمات شبکه نیز آشنا می‌شوند. نصب و حذف نرم‌افزارها، مدیریت کاربران و حساب‌ها، و استفاده از ابزارهای امنیتی ویندوز، از جمله فایروال و آنتی‌ویروس، نیز آموزش داده می‌شود. همچنین نحوه استفاده از ویژگی‌های چندوظیفه‌ای (multitasking) مانند تقسیم صفحه نمایش، مدیریت برنامه‌ها و پنجره‌ها، و ایجاد میان‌برهای کلیدی نیز پوشش داده می‌شود. در نهایت، به اشتراک‌گذاری فایل‌ها، به‌روزرسانی سیستم، و عیب‌یابی مشکلات رایج از دیگر موضوعات مطرح در این دوره است که به کاربران امکان می‌دهد بهره‌وری خود را در کار با ویندوز افزایش دهند.",
+      "price": 550000,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1401/7/9",
+      "studentsCount": 50,
+      "target": [
+        "افزایش توانایی کاربران در مدیریت و استفاده کارآمد از قابلیت‌های سیستم‌عامل ویندوز.",
+        "ارتقای مهارت کاربران در رفع مشکلات و عیب‌یابی سیستم برای بهبود عملکرد و امنیت."
+      ]
+    },
+    {
+      "categoryId": 3,
+      "subCategoryId": 8,
+      "id": "24",
+      "teacherId": 5,
+      "title": " آموزش سیستم عامل Linux",
+      "image": "https://th.bing.com/th/id/OIP.BAcVzMtJW7BGRLZyglcj4gHaEK?w=285&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزش سیستم‌عامل لینوکس به کاربران کمک می‌کند تا با مفاهیم و مهارت‌های اساسی این سیستم‌عامل متن‌باز آشنا شوند. در این دوره، کاربران یاد می‌گیرند چگونه لینوکس را نصب و پیکربندی کنند و با محیط‌های گرافیکی و متنی آن کار کنند. از مباحث مهم این دوره می‌توان به مدیریت فایل‌ها و دایرکتوری‌ها، استفاده از خط فرمان، و اجرای دستورات پایه اشاره کرد. کاربران با نحوه نصب و مدیریت نرم‌افزارها از طریق بسته‌های نرم‌افزاری آشنا می‌شوند و یاد می‌گیرند چگونه منابع سیستم را مدیریت کنند. همچنین، مباحثی مانند کار با کاربرها و گروه‌ها، تنظیمات مجوزها و امنیت، و عیب‌یابی مشکلات رایج در لینوکس بررسی می‌شود. کاربران با استفاده از اسکریپت‌نویسی شل و اتوماسیون وظایف نیز آشنا می‌شوند. در نهایت، مفاهیم شبکه و مدیریت سرورهای لینوکسی، شامل راه‌اندازی وب‌سرورها و پایگاه‌های داده، به عنوان مباحث پیشرفته‌تر در این دوره مطرح می‌شود. این دوره برای مبتدیان و کاربران با تجربه کم طراحی شده و می‌تواند به عنوان پایه‌ای برای یادگیری بیشتر در زمینه مدیریت سرورها و توسعه نرم‌افزار مورد استفاده قرار گیرد.",
+      "price": 360000,
+      "degree": "دارد",
+      "discount": 5,
+      "times": 40,
+      "rating": 3.6,
+      "creationDate": "1401/8/20",
+      "studentsCount": 50,
+      "target": [
+        "افزایش آگاهی و توانایی کاربران در استفاده و مدیریت سیستم‌عامل لینوکس",
+        "توانمندسازی کاربران برای راه‌اندازی و پیکربندی سرورهای لینوکسی و انجام وظایف مدیریتی پیشرفته."
+      ]
+    },
+    {
+      "categoryId": 3,
+      "subCategoryId": 9,
+      "id": "25",
+      "teacherId": 12,
+      "title": " آموزش  هک و امنیت ",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPejOFgkBIrOfVD8oH0I12X_O-LkB6dCcbFw&s",
+      "caption": "دوره آموزش هک قانونمند (Ethical Hacking) به کاربران کمک می‌کند تا با اصول و تکنیک‌های امنیت سایبری آشنا شوند. در این دوره، شرکت‌کنندگان یاد می‌گیرند چگونه به شناسایی آسیب‌پذیری‌ها و نقاط ضعف سیستم‌ها و شبکه‌ها بپردازند. مباحث ابتدایی شامل مفاهیم پایه امنیت سایبری، انواع حملات سایبری و تکنیک‌های دفاعی است. سپس، کاربران با ابزارهای هک قانونمند، مانند نجاتو (Nmap) و متاسپلویت (Metasploit)، آشنا می‌شوند و نحوه استفاده از آنها را یاد می‌گیرند. همچنین، دوره شامل آموزش روش‌های تست نفوذ (Penetration Testing) و ارزیابی امنیتی سیستم‌ها می‌شود. مباحث امنیت شبکه، رمزنگاری داده‌ها و مدیریت ریسک نیز بررسی می‌شوند. در این دوره، شرکت‌کنندگان با موارد قانونی و اخلاقی مربوط به هک قانونمند آشنا می‌شوند و اهمیت رعایت اصول اخلاقی در حوزه امنیت سایبری را درک می‌کنند. همچنین، به ارائه گزارش‌ها و نتایج تست‌ها به مشتریان یا سازمان‌ها پرداخته می‌شود. این دوره به‌ویژه برای علاقه‌مندان به امنیت اطلاعات، متخصصان IT و کسانی که به دنبال کار در زمینه امنیت سایبری هستند، مفید است.",
+      "price": 890000,
+      "degree": "دارد",
+      "discount": 13,
+      "times": 40,
+      "rating": 4.7,
+      "creationDate": "1403/6/26",
+      "studentsCount": 50,
+      "target": [
+        "آموزش تکنیک‌ها و ابزارهای هک قانونمند برای شناسایی و رفع آسیب‌پذیری‌ها در سیستم‌ها و شبکه‌ها.",
+        "ترویج اصول اخلاقی و قانونی در حوزه امنیت سایبری و اهمیت رعایت آن‌ها در فعالیت‌های هک قانونمند."
+      ]
+    },
+    {
+      "categoryId": 4,
+      "subCategoryId": 10,
+      "id": "26",
+      "teacherId": 13,
+      "title": "آشنایی با قطعات دوربین",
+      "image": "http://ts3.mm.bing.net/th?id=OIP.UbtQmBBm_RfeA_l7JoA4RQHaE8&pid=15.1",
+      "caption": "دوره آموزش آشنایی با قطعات دوربین عکاسی به کاربران کمک می‌کند تا با اجزای مختلف دوربین‌های عکاسی و عملکرد آن‌ها آشنا شوند. در این دوره، کاربران با انواع دوربین‌ها، از جمله دوربین‌های دیجیتال، DSLR و بدون آینه آشنا می‌شوند. مباحث اصلی شامل شناخت لنزها، حسگرها، و سیستم‌های فوکوس است. کاربران یاد می‌گیرند که چگونه اجزای مختلف دوربین مانند شاتر، آینه، و منظره‌یاب کار می‌کنند و تأثیر هر یک بر کیفیت تصویر چیست. همچنین، به بررسی انواع لنزها، از جمله لنزهای واید، تله و ماکرو پرداخته می‌شود و کاربران با کاربردهای هر کدام آشنا می‌شوند. دوره همچنین شامل نکاتی درباره نورپردازی، فیلترها و لوازم جانبی دیگر مانند سه‌پایه و کیف دوربین است. کاربران با اهمیت نگهداری و تمیز کردن دوربین نیز آشنا می‌شوند. این دوره برای مبتدیان طراحی شده و به عکاسان علاقه‌مند کمک می‌کند تا درک بهتری از تجهیزات خود داشته باشند و از آن‌ها به بهترین نحو استفاده کنند. در نهایت، این دوره به افزایش خلاقیت و مهارت‌های عکاسی کاربران کمک می‌کند.",
+      "price": 0,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 4.7,
+      "creationDate": "1402/9/5",
+      "studentsCount": 50,
+      "target": [
+        "افزایش آگاهی کاربران نسبت به اجزای مختلف دوربین عکاسی و عملکرد آن‌ها برای بهبود کیفیت عکاسی.",
+        "توانمندسازی کاربران در انتخاب و استفاده از تجهیزات مناسب بر اساس نیازهای عکاسی خود."
+      ]
+    },
+    {
+      "categoryId": 4,
+      "subCategoryId": 10,
+      "id": "27",
+      "teacherId": 13,
+      "title": " آموزش دوره عکاسی پیشرفته",
+      "image": "https://th.bing.com/th/id/OIP.jVxzSawEIv8ROWK5qtQAsgHaEB?w=322&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزش عکاسی پیشرفته به عکاسان با تجربه کمک می‌کند تا مهارت‌های خود را به سطح بالاتری ارتقاء دهند. در این دوره، کاربران با تکنیک‌های پیشرفته عکاسی، از جمله نورپردازی حرفه‌ای، ترکیب‌بندی پیچیده و استفاده از لنزهای خاص آشنا می‌شوند. مباحث شامل کار با دوربین‌های حرفه‌ای و تنظیمات دستی، مانند ISO، دیافراگم و شاتر، به‌طور عمیق‌تر بررسی می‌شود. کاربران یاد می‌گیرند چگونه از نور طبیعی و مصنوعی به بهترین نحو استفاده کنند و روش‌های خلاقانه نورپردازی را تجربه کنند. همچنین، تکنیک‌های ویرایش و پردازش تصویر با استفاده از نرم‌افزارهایی مانند Adobe Lightroom و Photoshop آموزش داده می‌شود. در این دوره، مباحثی مانند عکاسی پرتره، عکاسی از مناظر، عکاسی ماکرو و عکاسی شب نیز به‌طور تخصصی بررسی می‌شود. کاربران با تکنیک‌های عکاسی مستند و داستان‌گویی از طریق عکس‌ها آشنا می‌شوند. این دوره به عکاسان این امکان را می‌دهد که سبک شخصی خود را پیدا کرده و در پروژه‌های عکاسی خود خلاقیت بیشتری به کار ببرند. در نهایت، عکاسان می‌آموزند چگونه نمونه‌کارهای خود را برای نمایش و ارائه به مشتریان آماده کنند.",
+      "price": 380000,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 4.7,
+      "creationDate": "1402/3/11",
+      "studentsCount": 50,
+      "target": [
+        "ارتقای مهارت‌های عکاسی و توانایی کاربران در استفاده از تکنیک‌های پیشرفته و نورپردازی حرفه‌ای.",
+        "توانمندسازی کاربران برای توسعه سبک شخصی و خلاقیت در پروژه‌های عکاسی مختلف."
+      ]
+    },
+    {
+      "categoryId": 4,
+      "subCategoryId": 11,
+      "id": "28",
+      "teacherId": 14,
+      "title": " آموزش دوره نقاشی سیاه قلم  ",
+      "image": "http://ts2.mm.bing.net/th?id=OIP.hC7F8n4ux0Zaol0OZ03v8QHaHa&pid=15.1",
+      "caption": "دوره آموزش نقاشی سیاه قلم به هنرمندان و علاقه‌مندان به هنرهای تجسمی کمک می‌کند تا با تکنیک‌های این سبک نقاشی آشنا شوند. در این دوره، کاربران یاد می‌گیرند چگونه با استفاده از مدادهای سیاه و خاکستری، تضاد نور و سایه را در آثار خود به تصویر بکشند. مباحث ابتدایی شامل شناخت ابزارهای مورد نیاز، از جمله مدادهای مختلف، کاغذ، و لوازم جانبی است. هنرجویان با اصول طراحی، ترکیب‌بندی و ایجاد بافت در نقاشی آشنا می‌شوند و تمرینات مختلفی برای تقویت مهارت‌های دست و چشم انجام می‌دهند. همچنین، تکنیک‌های سایه‌زنی و روش‌های ایجاد عمق و حجم در آثار آموزش داده می‌شود. کاربران با تحلیل آثار هنرمندان مشهور و الهام‌گیری از آن‌ها، خلاقیت خود را گسترش می‌دهند. این دوره برای مبتدیان و هنرمندان با تجربه کم طراحی شده و به آن‌ها کمک می‌کند تا توانایی‌های خود را در نقاشی سیاه قلم تقویت کنند. در نهایت، هنرجویان می‌آموزند چگونه آثار خود را نقد کرده و بهبود بخشند. این دوره فرصتی مناسب برای بیان خلاقیت و توسعه مهارت‌های هنری است.",
+      "price": 450000,
+      "degree": "دارد",
+      "discount": 3,
+      "times": 40,
+      "rating": 5,
+      "creationDate": "1403/7/20",
+      "studentsCount": 50,
+      "target": [
+        "آموزش تکنیک‌های پایه و پیشرفته نقاشی سیاه قلم برای تقویت مهارت‌های هنری کاربران.",
+        "توانمندسازی هنرجویان در ایجاد آثار خلاقانه و منحصر به فرد با استفاده از تکنیک‌های سایه‌زنی و ترکیب‌بندی."
+      ]
+    },
+    {
+      "categoryId": 4,
+      "subCategoryId": 11,
+      "id": "29",
+      "teacherId": 14,
+      "title": " آموزش دوره نقاشی با آبرنگ  ",
+      "image": "https://th.bing.com/th/id/OIP.yGQUG8YaOhaE4v1CJLGd4QHaHa?w=174&h=180&c=7&r=0&o=5&pid=1.7",
+      "caption": "دوره آموزش نقاشی با آبرنگ به هنرمندان و علاقه‌مندان کمک می‌کند تا با تکنیک‌ها و روش‌های خاص این سبک نقاشی آشنا شوند. در این دوره، کاربران یاد می‌گیرند چگونه از رنگ‌های آبرنگ و ابزارهای مربوط به آن، از جمله قلم‌موها و کاغذهای مخصوص استفاده کنند. مباحث ابتدایی شامل شناخت رنگ‌ها، ایجاد رنگ‌های جدید و ترکیب آن‌ها به‌صورت مؤثر است. هنرجویان با تکنیک‌های مختلف آبرنگ، از جمله رنگ‌آمیزی لایه‌ای، ترسیم با آب، و ایجاد بافت‌های مختلف آشنا می‌شوند. همچنین، آموزش اصول ترکیب‌بندی و طراحی به‌منظور بهبود کیفیت آثار نقاشی ارائه می‌شود. کاربران تمریناتی برای تقویت مهارت‌های نقاشی خود انجام می‌دهند و با تکنیک‌های خلاقانه مانند پاشیدن رنگ و نقاشی با نمک آشنا می‌شوند. در این دوره، الهام‌گیری از طبیعت و اشیای روزمره برای خلق آثار هنری مورد توجه قرار می‌گیرد. این دوره برای مبتدیان و هنرمندان با تجربه کم طراحی شده و به آن‌ها کمک می‌کند تا خلاقیت و بیان هنری خود را گسترش دهند. در نهایت، هنرجویان می‌آموزند چگونه آثار خود را نقد کرده و از تجربیات خود برای بهبود استفاده کنند.",
+      "price": 0,
+      "degree": "دارد",
+      "discount": 0,
+      "times": 40,
+      "rating": 3.2,
+      "creationDate": "1403/3/1",
+      "studentsCount": 50,
+      "target": [
+        "آموزش تکنیک‌های پایه و پیشرفته نقاشی با آبرنگ برای تقویت مهارت‌های هنری کاربران.",
+        "توانمندسازی هنرجویان در خلق آثار خلاقانه و منحصر به فرد با استفاده از رنگ‌های آبرنگ و ابزارهای مربوطه."
+      ]
+    },
+    {
+      "categoryId": 4,
+      "subCategoryId": 12,
+      "id": "30",
+      "teacherId": 14,
+      "title": "آموزش دوره خوشنویسی خط نستعلیق",
+      "image": "http://ts2.mm.bing.net/th?id=OIP.Q5AJODI4Dr5pqIQ8GATK_AHaEG&pid=15.1",
+      "caption": "دوره آموزش خوشنویسی خط نستعلیق به هنرمندان و علاقه‌مندان به هنر خوشنویسی کمک می‌کند تا با تکنیک‌ها و اصول این سبک زیبا آشنا شوند. در این دوره، کاربران با ابزارهای مورد نیاز، از جمله قلم، مرکب و کاغذ مناسب برای خط نستعلیق آشنا می‌شوند. مباحث ابتدایی شامل شناخت ساختار حروف، شیوه‌های صحیح نگارش و ایجاد تناسب در ابعاد حروف است. هنرجویان یاد می‌گیرند چگونه حرکات قلم را به‌طور صحیح انجام دهند و با تمرینات مختلف مهارت‌های خود را تقویت کنند. همچنین، دوره شامل آموزش نحوه ترکیب و طراحی متون و استفاده از زوایا و انحنای حروف برای ایجاد زیبایی در اثر است. کاربران با آثار خوشنویسان مشهور آشنا می‌شوند و از آن‌ها الهام می‌گیرند. این دوره برای مبتدیان و هنرمندان با تجربه کم طراحی شده و به آن‌ها کمک می‌کند تا خلاقیت و بیان هنری خود را در خوشنویسی پرورش دهند. در نهایت، هنرجویان می‌آموزند چگونه آثار خود را به‌صورت حرفه‌ای ارائه کرده و نقد کنند. این دوره فرصتی مناسب برای یادگیری و ایجاد آثار هنری با اصالت ایرانی است",
+      "price": 345000,
+      "degree": "دارد",
+      "discount": 7,
+      "times": 40,
+      "rating": 3.1,
+      "creationDate": "1402/5/6",
+      "studentsCount": 50,
+      "target": [
+        "آموزش تکنیک‌ها و اصول خوشنویسی خط نستعلیق برای تقویت مهارت‌های هنری و خلاقیت کاربران.",
+        "توانمندسازی هنرجویان در خلق آثار خوشنویسی زیبا و حرفه‌ای با استفاده از ابزارها و روش‌های مناسب."
+      ]
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "image": "https://th.bing.com/th/id/OIP.GE6MMIFJI4DhvNk-7CngLQHaHe?w=181&h=182&c=7&r=0&o=5&pid=1.7",
+      "fullName": " محمد طاهریان",
+      "expertise": "برنامه نویس جاوااسکریپت",
+      "rating": 4.2,
+      "caption": "محمد طاهریان، برنامه‌نویس جاوااسکریپت، فارغ‌التحصیل رشته مهندسی نرم‌افزار از دانشگاه صنعتی شریف است. او فعالیت حرفه‌ای خود را با همکاری در استارتاپ‌های فناورانه ایرانی مانند دیجی‌کالا و اسنپ آغاز کرد. با تجربه در فریم‌ورک‌های مدرنی مانند React و Node.js، او توانسته است پروژه‌های متعددی را در حوزه تجارت الکترونیک و خدمات آنلاین به انجام برساند."
+    },
+    {
+      "id": "2",
+      "image": "https://th.bing.com/th/id/OIP.LtLk-vQkLJGggWTN032pPwHaLH?w=121&h=182&c=7&r=0&o=5&pid=1.7",
+      "fullName": "علی نظری",
+      "expertise": "متخصص php",
+      "rating": 3.1,
+      "caption": "علی نظری، متخصص PHP، فارغ‌التحصیل رشته مهندسی فناوری اطلاعات از دانشگاه علم و صنعت ایران است. او فعالیت حرفه‌ای خود را با توسعه وب در شرکت‌های مطرحی مانند ایران‌سرور و تپسل آغاز کرد. علی با تمرکز بر توسعه سیستم‌های مدیریت محتوا و تجارت الکترونیک، تجربه گسترده‌ای در استفاده از فریم‌ورک‌هایی مانند Laravel و Symfony به دست آورده است."
+    },
+    {
+      "id": "3",
+      "image": "http://ts2.mm.bing.net/th?id=OIP.XTmBRnUFZHU60qOmHG7KWwHaHa&pid=15.1",
+      "fullName": "آرش حسینی",
+      "expertise": "متخصص پایتون",
+      "rating": 4,
+      "caption": "آرش حسینی، متخصص پایتون، فارغ‌التحصیل رشته علوم کامپیوتر از دانشگاه تهران است. او در حوزه تحلیل داده و هوش مصنوعی فعالیت می‌کند و تجربه کار در شرکت‌های پیشرو ایرانی مانند کافه‌بازار و علی‌بابا را دارد. آرش با تسلط بر فریم‌ورک‌هایی مانند Django و TensorFlow، پروژه‌های موفقی در زمینه یادگیری ماشین و توسعه وب اپلیکیشن‌ها به انجام رسانده است."
+    },
+    {
+      "id": "4",
+      "image": "https://th.bing.com/th/id/OIP.vnuuIl2oRoyZaqBXw5UOlQHaE7?w=246&h=180&c=7&r=0&o=5&pid=1.7",
+      "fullName": "سینا محمدی",
+      "expertise": "متخصص زبان c",
+      "rating": 3.6,
+      "caption": "سینا محمدی، متخصص زبان C، فارغ‌التحصیل رشته مهندسی برق از دانشگاه صنعتی امیرکبیر است. او در زمینه توسعه سیستم‌های نهفته (Embedded Systems) و برنامه‌نویسی سطح پایین، تجربه کار در شرکت‌هایی مانند مپنا و ایران خودرو دارد. سینا با تمرکز بر بهینه‌سازی کدهای سیستمی و طراحی نرم‌افزارهای کاربردی در حوزه کنترل صنعتی و روباتیک، به عنوان یکی از متخصصین برجسته در این حوزه شناخته می‌شود."
+    },
+    {
+      "id": "5",
+      "image": "https://th.bing.com/th/id/OIP.nue7qTdh_GEFg4XvSXZpHgAAAA?w=230&h=180&c=7&r=0&o=5&pid=1.7",
+      "fullName": "کیان امجد",
+      "expertise": "متخصص آی تی ",
+      "rating": 3.4,
+      "caption": "کیان امجد، متخصص فناوری اطلاعات (IT)، فارغ‌التحصیل رشته مهندسی فناوری اطلاعات از دانشگاه صنعتی خواجه نصیرالدین طوسی است. او در حوزه مدیریت شبکه‌ها و امنیت اطلاعات در شرکت‌های معتبری مانند آسیاتک و همراه اول فعالیت کرده است. کیان با تخصص در طراحی و پیاده‌سازی زیرساخت‌های شبکه‌ای و راه‌حل‌های امنیت سایبری، پروژه‌های موفقی را در زمینه بهینه‌سازی شبکه‌های سازمانی و افزایش امنیت اطلاعات به انجام رسانده است."
+    },
+    {
+      "id": "6",
+      "image": "https://th.bing.com/th/id/OIP.CZ4LDBaAwxHXY5LD2DXu5wHaEK?w=313&h=180&c=7&r=0&o=5&pid=1.7",
+      "fullName": "محمد صحرایی",
+      "expertise": "متخصص ریکت جی اس",
+      "rating": 4.4,
+      "caption": "محمد صحرایی، متخصص React.js، فارغ‌التحصیل رشته مهندسی نرم‌افزار از دانشگاه شهید بهشتی است. او تجربه کار در شرکت‌های مطرح فناوری مانند دیوار و فیلیمو را دارد و در توسعه رابط‌های کاربری مدرن و بهینه برای اپلیکیشن‌های وب مهارت دارد. محمد با تمرکز بر فریم‌ورک React و ابزارهایی مانند Redux و Next.js، پروژه‌های متعددی را در زمینه وب اپلیکیشن‌های تعاملی و بهینه پیاده‌سازی کرده است."
+    },
+    {
+      "id": "7",
+      "image": "https://th.bing.com/th/id/OIP.qbIF3gNiqXnB_SZI2bqsugHaFw?w=216&h=180&c=7&r=0&o=5&pid=1.7",
+      "fullName": "سعید ولایت",
+      "expertise": "متخصص Angular",
+      "rating": 3.5,
+      "caption": "سعید ولایت، متخصص Angular، فارغ‌التحصیل رشته مهندسی کامپیوتر از دانشگاه صنعتی اصفهان است. او سابقه همکاری با شرکت‌های فناوری اطلاعات مانند فناپ و چارگون را در کارنامه خود دارد و در توسعه نرم‌افزارهای وب پیچیده و برنامه‌های سازمانی مبتنی بر Angular تخصص دارد. سعید با تسلط بر معماری‌های SPA و ابزارهایی مانند RxJS و NgRx، پروژه‌های متعددی را در حوزه توسعه نرم‌افزارهای مقیاس‌پذیر و کاربرپسند به انجام رسانده است."
+    },
+    {
+      "id": "8",
+      "image": "http://ts2.mm.bing.net/th?id=OIP.pu81M5aUmKdk2OLI0nRK8gHaJ4&pid=15.1",
+      "fullName": "مجتبی نصیری",
+      "expertise": "متخصص هوش مصنوعی",
+      "rating": 3.5,
+      "caption": "مجتبی نصیری، متخصص هوش مصنوعی، فارغ‌التحصیل رشته مهندسی کامپیوتر از دانشگاه شیراز است. او با تجربه کار در شرکت‌های فناوری پیشرفته مانند آریا تک و هوش مصنوعی‌کار، بر روی پروژه‌های مرتبط با یادگیری ماشین و پردازش زبان طبیعی کار کرده است. مجتبی با تسلط بر الگوریتم‌های یادگیری عمیق و فریم‌ورک‌هایی مانند TensorFlow و PyTorch، به بهینه‌سازی مدل‌های هوش مصنوعی و ایجاد راه‌حل‌های نوآورانه در حوزه‌های مختلف پرداخته است."
+    },
+    {
+      "id": "9",
+      "image": "data:image/jpeg;base64,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",
+      "fullName": "امیرحسین تهرانی",
+      "expertise": "متخصص بکند",
+      "rating": 3.5,
+      "caption": "امیر حسین تهرانی، متخصص بک‌اند، فارغ‌التحصیل رشته مهندسی نرم‌افزار از دانشگاه آزاد اسلامی واحد تهران مرکز است. او تجربه کار در شرکت‌های معتبر ایرانی مانند زرین‌پال و آپارات را دارد و در توسعه و مدیریت سرورهای سمت بک‌اند و پایگاه‌های داده تخصص دارد. امیر حسین با تسلط بر زبان‌های برنامه‌نویسی مانند Python و PHP و فریم‌ورک‌هایی مانند Django و Laravel، پروژه‌های موفقی را در زمینه ایجاد سیستم‌های مقیاس‌پذیر و APIهای کارآمد پیاده‌سازی کرده است."
+    },
+    {
+      "id": "10",
+      "image": "https://th.bing.com/th/id/OIP.jZSop8YOJslh1wxWYLpBtAAAAA?pid=ImgDet&w=188&h=134&c=7",
+      "fullName": "حمید خداداد",
+      "expertise": "مدرس زبان انگلیسی",
+      "rating": 4.1,
+      "caption": "حمید خداداد، مدرس زبان انگلیسی، فارغ‌التحصیل رشته زبان و ادبیات انگلیسی از دانشگاه تهران است. او با بیش از ده سال تجربه تدریس در موسسات معتبر آموزشی مانند زبان‌های خارجی ایران و ایرسافام، به آموزش مکالمه و مهارت‌های نوشتاری زبان‌آموزان پرداخته است. حمید با استفاده از روش‌های نوین آموزشی و تمرکز بر نیازهای فردی دانش‌آموزان، توانسته است در تقویت مهارت‌های زبانی و اعتماد به نفس آنها نقش مؤثری ایفا کند."
+    },
+    {
+      "id": "11",
+      "image": "data:image/jpeg;base64,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",
+      "fullName": "ساسان عرفانی",
+      "expertise": "مدرس زبان آلمانی",
+      "rating": 3.7,
+      "caption": "ساسان عرفانی، مدرس زبان آلمانی، فارغ‌التحصیل رشته زبان و ادبیات آلمانی از دانشگاه آزاد اسلامی واحد تهران شمال است. او با بیش از هفت سال تجربه تدریس در موسسات معتبر مانند مؤسسه زبان‌های خارجی کیش و گلوبال، به آموزش زبان‌آموزان در سطوح مختلف پرداخته است. ساسان با استفاده از روش‌های متنوع آموزشی و تمرکز بر مکالمه و فرهنگ آلمانی، به ارتقای مهارت‌های زبانی دانش‌آموزان و آماده‌سازی آنها برای آزمون‌های بین‌المللی کمک کرده است."
+    },
+    {
+      "id": "12",
+      "image": "https://th.bing.com/th/id/OIP.kFwwgCR6izxJfK_fEtZ2MQHaHa?w=217&h=180&c=7&r=0&o=5&pid=1.7",
+      "fullName": "محمد اخلاقی",
+      "expertise": "امنیت شبکه",
+      "rating": 4.7,
+      "caption": "محمد اخلاقی، متخصص امنیت شبکه، فارغ‌التحصیل رشته مهندسی کامپیوتر از دانشگاه علم و صنعت ایران است. او با تجربه کار در شرکت‌های پیشرو مانند ایران‌سل و فن‌آوران اطلاعات، به تحلیل و پیاده‌سازی راه‌حل‌های امنیتی برای حفاظت از داده‌ها و زیرساخت‌های شبکه پرداخته است. محمد با تسلط بر استانداردهای امنیتی و ابزارهای تشخیص نفوذ، در توسعه استراتژی‌های امنیتی مؤثر و افزایش آگاهی در زمینه امنیت سایبری در سازمان‌ها نقش بسزایی ایفا کرده است."
+    },
+    {
+      "id": "13",
+      "image": "https://th.bing.com/th/id/OIP.DekC2UrBvRuWNlX075lt7QHaE8?w=288&h=192&c=7&r=0&o=5&pid=1.7",
+      "fullName": "امیرحسین میری",
+      "expertise": "عکاس",
+      "rating": 3.7,
+      "caption": "امیرحسین میری، عکاس حرفه‌ای، فارغ‌التحصیل رشته عکاسی از دانشگاه هنر تهران است. او با بیش از پنج سال تجربه در عکاسی از رویدادها، پرتره‌ها و تبلیغات، با برندهای معروف ایرانی مانند دیجی‌کالا و ایران‌خودرو همکاری داشته است. امیرحسین با سبک منحصربه‌فرد و تسلط بر تکنیک‌های نورپردازی و ویرایش عکس، توانسته است آثار چشمگیری را خلق کند که در نمایشگاه‌ها و رسانه‌های مختلف به نمایش درآمده است."
+    },
+    {
+      "id": "14",
+      "image": "http://ts3.mm.bing.net/th?id=OIP.L5Q-auBhswLx3qM_qBTiDAHaH_&pid=15.1",
+      "fullName": "مجید هنرمند",
+      "expertise": "نقاش و خوشنویس",
+      "rating": 3.7,
+      "caption": "مجید هنرمند، نقاش، فارغ‌التحصیل رشته نقاشی از دانشگاه تهران است. او با تجربه کار در حوزه هنرهای تجسمی و شرکت در نمایشگاه‌های هنری معتبر در ایران و خارج از کشور، آثار خود را با تمرکز بر رنگ و شکل‌های انتزاعی به نمایش گذاشته است. مجید به‌عنوان یک هنرمند خلاق، تلاش می‌کند تا پیام‌های عمیق اجتماعی و فرهنگی را از طریق آثار خود منتقل کند و در برگزاری کارگاه‌های آموزشی نیز به تربیت هنرجویان جوان پرداخته است."
+    }
+  ],
+  "curriculum": [
+    {
+      "id": "1",
+      "courseId": 1,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر جاوا اسکریپت",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و معرفی جاوا اسکریپت",
+              "lock": false,
+              "vedioURL": ""
+            },
+            {
+              "id": 2,
+              "title": "نصب و راه‌اندازی محیط توسعه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با سینتکس و ساختارهای پایه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: متغیرها و نوع‌های داده",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی متغیرها و نوع‌های داده",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "کار با رشته‌ها، اعداد و بولین‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تبدیل نوع‌های داده",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "فصل 3: عبارات و عملگرها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی عبارات و عملگرهای پایه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "عملگرهای منطقی، مقایسه و ریاضی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "اولویت عملگرها و ارزیابی عبارات",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "courseId": 2,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مرور مفاهیم پایه و ابزارهای پیشرفته",
+          "videos": [
+            {
+              "id": 1,
+              "title": "مرور مباحث پایه جاوا اسکریپت",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "معرفی ابزارهای توسعه پیشرفته مانند Webpack و Babel",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مدیریت پروژه‌های پیچیده با NPM",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "برنامه‌نویسی شی‌گرا در جاوا اسکریپت",
+          "videos": [
+            {
+              "id": 1,
+              "title": "اصول برنامه‌نویسی شی‌گرا (OOP)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "کلاس‌ها، ارث‌بری و پلی‌مورفیسم",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "استفاده از الگوهای طراحی در پروژه‌های واقعی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "courseId": 3,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: آشنایی با پایتون",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و کاربردهای پایتون",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": " نصب و راه‌اندازی محیط برنامه‌نویسی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: مبانی زبان پایتون",
+          "videos": [
+            {
+              "id": 1,
+              "title": " ساختار کد و قواعد سینتکس",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "متغیرها و انواع داده‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "courseId": 4,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر یادگیری ماشین و پایتون",
+          "videos": [
+            {
+              "id": 1,
+              "title": "مفهوم یادگیری ماشین و کاربردهای آن",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نصب و راه‌اندازی ابزارهای لازم (Anaconda، Jupyter Notebook)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "معرفی کتابخانه‌های اصلی: NumPy، Pandas، Scikit-learn",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: پیش‌پردازش داده‌ها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "پاک‌سازی و آماده‌سازی داده‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "دستکاری و تجزیه داده‌ها با Pandas",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "نرمال‌سازی و استانداردسازی داده‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "courseId": 5,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر زبان C و C++",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و کاربردهای زبان C و C++",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "مقایسه C و C++ و تفاوت‌های کلیدی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تنظیم محیط توسعه (IDE) و نوشتن اولین برنامه 'Hello World'",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: متغیرها، نوع‌های داده و عملگرها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی متغیرها و نوع‌های داده در C و C++",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "عملگرهای محاسباتی، منطقی و مقایسه‌ای",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "اصول تخصیص حافظه و مدیریت آن در C و C++",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "courseId": 6,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر PHP و توسعه وب",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و کاربردهای زبان PHP",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نصب و راه‌اندازی محیط توسعه (XAMPP، WAMP، MAMP)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "اولین اسکریپت PHP: ترکیب HTML و PHP",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: متغیرها، نوع‌های داده و عملگرها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی متغیرها و نوع‌های داده در PHP",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "عملگرهای ریاضی، منطقی و مقایسه‌ای",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "کار با رشته‌ها و اعداد در PHP",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "courseId": 7,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر شی‌گرایی در جاوااسکریپت",
+          "videos": [
+            {
+              "id": 1,
+              "title": "مفهوم شی‌گرایی و اصول آن",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "تفاوت بین برنامه‌نویسی شی‌گرا و رویه‌ای",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با اشیا در جاوااسکریپت",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: ساخت و مدیریت اشیا در جاوااسکریپت",
+          "videos": [
+            {
+              "id": 1,
+              "title": "ساخت اشیا با استفاده از Literals",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "افزودن و دسترسی به خواص و متدها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": " حذف خواص اشیا",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "courseId": 8,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر Next.js و فریم‌ورک‌های SSR",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی Next.js و معماری آن",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "تفاوت‌های SSR (Server-Side Rendering) و CSR (Client-Side Rendering)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "نصب و راه‌اندازی پروژه اولیه با Next.js",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: صفحات و مسیریابی در Next.js",
+          "videos": [
+            {
+              "id": 1,
+              "title": "ساخت صفحات (Pages) در Next.js",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "استفاده از سیستم مسیریابی داخلی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مسیریابی پویا و پارامترهای صفحه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "courseId": 9,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر React.js و مفاهیم پایه",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی React.js و کاربردهای آن در توسعه وب",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "ایجاد اولین پروژه React و ساختار فایل‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با کامپوننت‌ها و JSX",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: استیت (State) و پراپس (Props",
+          "videos": [
+            {
+              "id": 1,
+              "title": "مفهوم استیت و مدیریت آن در کامپوننت‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "استفاده از پراپس برای ارسال داده بین کامپوننت‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تفاوت بین استیت و پراپس و نحوه تعامل آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "courseId": 10,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر Angular و معماری آن",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی Angular و تفاوت آن با فریم‌ورک‌های دیگر",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نصب و راه‌اندازی Angular CLI",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "ساختار پروژه Angular و معرفی ماژول‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: کامپوننت‌ها و دیتابایندینگ (Data Binding)",
+          "videos": [
+            {
+              "id": 1,
+              "title": "ساخت و استفاده از کامپوننت‌ها در Angular",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با انواع Data Binding (یک‌طرفه و دوطرفه)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مدیریت ورودی و خروجی داده بین کامپوننت‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "courseId": 11,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر Node.js و معماری آن",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی Node.js و کاربردهای آن",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نصب و راه‌اندازی محیط Node.js",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مفهوم Non-blocking I/O و Event-driven programming",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: ماژول‌ها و مدیریت پکیج‌ها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی ماژول‌های داخلی Node.js",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "ساخت و استفاده از ماژول‌های شخصی‌سازی‌شده",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مدیریت وابستگی‌ها با استفاده از NPM (Node Package Manager)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "courseId": 12,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر هوش مصنوعی و ChatGPT",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی هوش مصنوعی و کاربردهای آن",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "تاریخچه و توسعه مدل‌های زبان بزرگ (LLMs)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با ChatGPT و معماری GPT",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: کار با APIهای ChatGPT",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی OpenAI API و نحوه دسترسی به آن",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نحوه ارسال درخواست (request) و دریافت پاسخ (response)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تنظیمات و پارامترهای مختلف برای سفارشی‌سازی خروجی مدل",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "courseId": 13,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر Prompt Engineering",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تعریف و اهمیت Prompt Engineering در هوش مصنوعی",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با مدل‌های زبان بزرگ (LLMs) و عملکرد آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "نحوه طراحی و استفاده از پرامپت‌های موثر",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: تکنیک‌ها و استراتژی‌های طراحی پرامپت",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تکنیک‌های مختلف برای بهینه‌سازی پرامپت",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "روش‌های تست و ارزیابی پرامپت‌های طراحی‌شده",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "بررسی نمونه‌های موفق و تحلیل آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "courseId": 14,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر هوش مصنوعی و MATLAB",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تعریف هوش مصنوعی و کاربردهای آن در صنعت",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با محیط نرم‌افزاری MATLAB و ابزارهای مرتبط",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "نصب و راه‌اندازی MATLAB برای پروژه‌های هوش مصنوعی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: مبانی یادگیری ماشین در MATLAB",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی الگوریتم‌های یادگیری ماشین و نحوه پیاده‌سازی آن‌ها در MATLAB",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "کار با داده‌ها: بارگذاری، پیش‌پردازش و تجزیه و تحلیل داده‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "استفاده از Toolbox‌های MATLAB برای یادگیری ماشین",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "courseId": 15,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر SQL و MySQL",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تعریف SQL و اهمیت آن در مدیریت پایگاه‌داده",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با MySQL و نصب آن",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "ساختار پایگاه‌داده و مفاهیم پایه: جداول، سطرها و ستون‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: دستورات پایه SQL",
+          "videos": [
+            {
+              "id": 1,
+              "title": "کار با دستورات SELECT، INSERT، UPDATE و DELETE",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "فیلتر کردن داده‌ها با WHERE و مرتب‌سازی نتایج با ORDER BY",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "استفاده از JOIN‌ها برای ترکیب داده‌ها از جداول مختلف",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "courseId": 16,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر MongoDB و پایگاه‌داده‌های NoSQL",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تعریف MongoDB و تفاوت‌های آن با پایگاه‌داده‌های رابطه‌ای",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نصب و راه‌اندازی MongoDB و ابزارهای مرتبط",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با ساختار داده‌ها: داکیومنت‌ها، مجموعه‌ها و پایگاه‌داده‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: دستورات پایه MongoDB",
+          "videos": [
+            {
+              "id": 1,
+              "title": "کار با دستورات CRUD (Create, Read, Update, Delete)",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "فیلتر کردن داده‌ها با Query‌ها و استفاده از عملگرها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مدیریت داده‌ها: استفاده از Index‌ها و Aggregation برای تجزیه و تحلیل داده‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "courseId": 17,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر گرامر زبان انگلیسی",
+          "videos": [
+            {
+              "id": 1,
+              "title": "اهمیت گرامر در یادگیری زبان انگلیسی",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با اجزای جمله: اسم، فعل، صفت و قید",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "بررسی ساختار جملات ساده و پیچیده",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: زمان‌ها و حالت‌های فعل",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی زمان‌های حال، گذشته و آینده",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "استفاده از زمان‌های مختلف در جملات",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "بررسی حالت‌های فعل: عادی، استمراری و کامل",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "courseId": 18,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر زبان انگلیسی",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و اهمیت زبان انگلیسی در جهان",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "مهارت‌های چهارگانه: شنیداری، گفتاری، خواندن و نوشتن",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با ساختارهای پایه زبان انگلیسی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: گرامر و ساختار جملات",
+          "videos": [
+            {
+              "id": 1,
+              "title": "بررسی اجزای جمله و نقش آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "زمان‌ها و حالت‌های فعل در زبان انگلیسی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "استفاده از صفت‌ها، قیدها و حرف‌های اضافه در جملات",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "courseId": 19,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مبانی اسپیکینگ و مهارت‌های گفتاری",
+          "videos": [
+            {
+              "id": 1,
+              "title": "اهمیت مهارت گفتاری در یادگیری زبان انگلیسی",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "تکنیک‌های بهبود تلفظ و لهجه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با ساختارهای جملات و عبارات کاربردی در مکالمات",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: موضوعات و فعالیت‌های اسپیکینگ",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تمرین مکالمه در موضوعات روزمره و متداول",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "بازی‌ها و فعالیت‌های گروهی برای تقویت مهارت گفتاری",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "نحوه بیان نظر و نظرخواهی در مکالمات",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "courseId": 20,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر زبان آلمانی",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و اهمیت زبان آلمانی در جهان",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با الفبای آلمانی و تلفظ حروف",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "ساختار جمله و اصول اولیه گرامر آلمانی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: واژگان و عبارات پایه",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی واژگان روزمره و عبارات کاربردی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "یادگیری نام‌ها، صفات و قیدهای پرکاربرد",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تمرینات شنیداری و گفتاری برای تقویت واژگان",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "courseId": 21,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر Microsoft Word",
+          "videos": [
+            {
+              "id": 1,
+              "title": "آشنایی با محیط کاربری و ویژگی‌های اصلی Word",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نحوه نصب و راه‌اندازی Microsoft Word",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "معرفی انواع فایل‌های متنی و کاربردهای آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: ایجاد و ویرایش مستندات",
+          "videos": [
+            {
+              "id": 1,
+              "title": "نحوه ایجاد یک مستند جدید و استفاده از الگوها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "اضافه کردن عناصر مختلف: تصاویر، جدول‌ها و نمودارها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "کار با متن: قالب‌بندی، ویرایش و مدیریت پاراگراف‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "courseId": 22,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر Microsoft Excel",
+          "videos": [
+            {
+              "id": 1,
+              "title": "آشنایی با محیط کاربری Excel و ویژگی‌های اصلی آن",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نحوه نصب و راه‌اندازی Microsoft Excel",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مفاهیم پایه: ورک‌بوک، شیت و سلول‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: کار با داده‌ها و فرمول‌ها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "وارد کردن، ویرایش و قالب‌بندی داده‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "استفاده از فرمول‌ها و توابع پایه: SUM، AVERAGE و COUNT",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تجزیه و تحلیل داده‌ها با استفاده از فیلترها و مرتب‌سازی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "courseId": 23,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر سیستم‌عامل ویندوز",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی سیستم‌عامل ویندوز و تاریخچه آن",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با محیط دسکتاپ، منوی استارت و نوار وظیفه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "نصب و راه‌اندازی ویندوز و ایجاد حساب کاربری",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: مدیریت فایل‌ها و پوشه‌ها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "آشنایی با File Explorer و نحوه سازماندهی فایل‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "ایجاد، تغییر نام و حذف فایل‌ها و پوشه‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "نحوه استفاده از درایوها و مدیریت فضای ذخیره‌سازی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "courseId": 24,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر سیستم‌عامل لینوکس",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و ویژگی‌های کلیدی لینوکس",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "نصب و راه‌اندازی توزیع‌های مختلف لینوکس",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "آشنایی با محیط خط فرمان و کاربردهای آن",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: مدیریت فایل‌ها و دایرکتوری‌ها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "ساختار فایل سیستم در لینوکس و مفهوم دایرکتوری‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "دستورات پایه برای مدیریت فایل‌ها: cp، mv، rm و mkdir",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "جستجو و یافتن فایل‌ها با استفاده از دستورات find و locate",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "courseId": 25,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر هک و امنیت سایبری",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تعریف هک و انواع آن: هک اخلاقی، هک غیر اخلاقی و تهدیدات سایبری",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با اصول امنیت اطلاعات و اهمیت آن",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "مروری بر قوانین و اخلاقیات هک",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: ابزارها و تکنیک‌های هک",
+          "videos": [
+            {
+              "id": 1,
+              "title": "معرفی ابزارهای متداول هک و نحوه کار با آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با تکنیک‌های نفوذ: اسکنرها، حملات DDoS و فیشینگ",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "بررسی روش‌های محافظت از سیستم‌ها و داده‌ها در برابر هک",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "courseId": 26,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر دوربین‌ها",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و توسعه دوربین‌های عکاسی",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "انواع دوربین‌ها: دیجیتال، آنالوگ و DSLR",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "اجزای اصلی دوربین و نحوه عملکرد آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: قطعات کلیدی دوربین",
+          "videos": [
+            {
+              "id": 1,
+              "title": "لنز: انواع و عملکرد آن",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "حسگر: تفاوت بین حسگرهای CCD و CMOS",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "سیستم‌های فوکوس و نحوه تنظیم آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "courseId": 27,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مبانی عکاسی پیشرفته",
+          "videos": [
+            {
+              "id": 1,
+              "title": "مرور اصول عکاسی: Exposure، ISO و دیافراگم",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "آشنایی با تکنیک‌های نورپردازی و تأثیر آن بر عکاسی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "انتخاب و تنظیمات دوربین برای شرایط مختلف",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: تکنیک‌های پیشرفته عکاسی",
+          "videos": [
+            {
+              "id": 1,
+              "title": "عکاسی پرتره: ترکیب‌بندی و ارتباط با سوژه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "عکاسی منظره: استفاده از عمق میدان و نور طبیعی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "عکاسی ماکرو و تکنیک‌های خاص برای جزئیات نزدیک",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "courseId": 28,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر نقاشی سیاه قلم",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و مفهوم نقاشی سیاه قلم",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "ابزارها و مواد لازم برای شروع نقاشی سیاه قلم",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "اصول اولیه طراحی و آماده‌سازی بوم",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: تکنیک‌های پایه در نقاشی سیاه قلم",
+          "videos": [
+            {
+              "id": 1,
+              "title": "روش‌های سایه‌زنی و ایجاد عمق در نقاشی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "کار با خطوط و بافت‌ها برای نمایش جزئیات",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تمرینات عملی برای بهبود دقت و مهارت در طراحی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "courseId": 29,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر نقاشی با آبرنگ",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و ویژگی‌های نقاشی با آبرنگ",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "ابزارها و مواد لازم: انواع آبرنگ، قلم‌مو و کاغذ",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "اصول اولیه رنگ‌آمیزی و تکنیک‌های پایه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: تکنیک‌های پیشرفته در نقاشی با آبرنگ",
+          "videos": [
+            {
+              "id": 1,
+              "title": "روش‌های مخلوط کردن و لایه‌گذاری رنگ‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "ایجاد بافت و عمق در آثار آبرنگ",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "تمرینات عملی برای بهبود مهارت و خلاقیت در نقاشی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "courseId": 30,
+      "curriculumInfo": [
+        {
+          "id": 1,
+          "title": "فصل 1: مقدمه‌ای بر خوشنویسی خط نستعلیق",
+          "videos": [
+            {
+              "id": 1,
+              "title": "تاریخچه و اهمیت خط نستعلیق در هنر خوشنویسی",
+              "lock": false,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "ابزارها و مواد لازم: قلم، مرکب و کاغذ",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "اصول اولیه خوشنویسی و آشنایی با فرم‌های پایه",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "فصل 2: تکنیک‌های خوشنویسی نستعلیق",
+          "videos": [
+            {
+              "id": 1,
+              "title": "نحوه نگارش حروف و اتصال آن‌ها",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 2,
+              "title": "تمرینات برای بهبود دقت و روانی در نوشتن",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            },
+            {
+              "id": 3,
+              "title": "ترکیب‌بندی و طراحی آثار خوشنویسی",
+              "lock": true,
+              "vedioURL": "https://www.bing.com/videos/riverview/relatedvideo?&q=+programing+teaser&&mid=F10B5B3DE3310C6B5CEBF10B5B3DE3310C6B5CEB&&FORM=GVRPTV"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "generalQuestions": [
+    {
+      "id": "1",
+      "question": "چگونه می‌توانم در دوره‌های آموزشی ثبت‌نام کنم؟",
+      "answer": "برای ثبت‌نام در دوره‌ها، کافی است ابتدا یک حساب کاربری ایجاد کرده و سپس دوره مورد نظر خود را از طریق صفحه مربوطه انتخاب کنید. پس از افزودن دوره به سبد خرید و تکمیل مراحل پرداخت، به محتوای دوره دسترسی خواهید داشت."
+    },
+    {
+      "id": "2",
+      "question": "آیا پس از خرید دوره، به‌روزرسانی‌های آن رایگان خواهد بود؟",
+      "answer": "بله، تمامی به‌روزرسانی‌ها و محتوای جدیدی که به دوره اضافه می‌شوند، برای خریداران دوره رایگان خواهد بود و به صورت خودکار به محتوای دوره شما اضافه خواهد شد."
+    },
+    {
+      "id": "3",
+      "question": "آیا دوره‌ها محدودیت زمانی برای دسترسی دارند؟",
+      "answer": "خیر، پس از خرید دوره، شما به صورت دائمی به محتوای آن دسترسی خواهید داشت و می‌توانید هر زمان که بخواهید به آن بازگردید و آن را مرور کنید."
+    },
+    {
+      "id": "4",
+      "question": "آیا امکان دریافت مشاوره قبل از خرید دوره وجود دارد؟",
+      "answer": "بله، شما می‌توانید از طریق بخش پشتیبانی سایت با تیم مشاوره ما در تماس باشید تا راهنمایی‌های لازم برای انتخاب دوره مناسب را دریافت کنید."
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "image": "https://th.bing.com/th/id/OIP.R8dPrA068n-EVHoAeRoI7AHaEO?w=277&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      "title": "آخرین تحولات و ترندهای هوش مصنوعی در سال 2024",
+      "introduction": "هوش مصنوعی (AI) در سال‌های اخیر به سرعت در حال تغییر و تحول است و در سال 2024 نیز شاهد پیشرفت‌های قابل‌توجهی در این حوزه هستیم. از هوش مصنوعی مولد تا مدل‌های پیشرفته یادگیری عمیق، این فناوری به صنایع مختلف نفوذ کرده و زندگی روزمره ما را به طور چشمگیری تحت تأثیر قرار داده است. در این مقاله، به بررسی آخرین اخبار، تحولات و روندهای هوش مصنوعی در سال 2024 خواهیم پرداخت.",
+      "body": [
+        {
+          "title": "1. مدل‌های هوش مصنوعی مولد (Generative AI) و تأثیر آن بر صنایع خلاق",
+          "caption": "در سال 2024، مدل‌های هوش مصنوعی مولد مانند ChatGPT و DALL-E همچنان در صدر توجهات قرار دارند. این مدل‌ها قادر به تولید متن، تصویر و حتی ویدئو هستند و در صنایع خلاق مانند تبلیغات، طراحی، و تولید محتوا انقلابی ایجاد کرده‌اند. شرکت‌های بزرگی مانند Adobe و Microsoft با یکپارچه‌سازی این مدل‌ها در ابزارهای خود، به کاربران امکان می‌دهند تا به راحتی محتوای دلخواه خود را تولید کنند."
+        },
+        {
+          "title": "2. هوش مصنوعی و پزشکی: گام‌های بزرگ در تشخیص بیماری‌ها",
+          "caption": "یکی از حوزه‌هایی که هوش مصنوعی در سال 2024 پیشرفت چشمگیری داشته است، پزشکی و تشخیص بیماری‌هاست. با استفاده از مدل‌های یادگیری عمیق، سیستم‌های هوش مصنوعی قادر به تحلیل تصاویر پزشکی و داده‌های ژنتیکی با دقت بسیار بالا شده‌اند. این موضوع به پزشکان کمک می‌کند تا بیماری‌ها را در مراحل اولیه تشخیص دهند و برنامه‌های درمانی مناسب‌تری ارائه کنند."
+        },
+        {
+          "title": "3. هوش مصنوعی و خودروهای خودران: یک قدم نزدیک‌تر به آینده",
+          "caption": "در صنعت خودروسازی، هوش مصنوعی به توسعه خودروهای خودران سرعت بخشیده است. در سال 2024، بسیاری از شرکت‌های خودروسازی بزرگ مانند Tesla و Waymo نسخه‌های پیشرفته‌تری از خودروهای خودران را عرضه کرده‌اند که با استفاده از الگوریتم‌های هوش مصنوعی می‌توانند با کمترین دخالت انسانی، مسیرها را پیمایش کنند."
+        },
+        {
+          "title": "4. هوش مصنوعی و امنیت سایبری: شمشیری دو لبه",
+          "caption": "با افزایش استفاده از هوش مصنوعی در صنایع مختلف، امنیت سایبری نیز به یکی از موضوعات حیاتی تبدیل شده است. در سال 2024، سیستم‌های هوش مصنوعی به کار گرفته شده‌اند تا حملات سایبری را شناسایی و دفع کنند. این سیستم‌ها با تحلیل حجم بزرگی از داده‌ها می‌توانند رفتارهای غیرمعمول را تشخیص دهند و از وقوع حملات جلوگیری کنند."
+        },
+        {
+          "title": "5. مسائل اخلاقی و قانونی پیرامون هوش مصنوعی",
+          "caption": "با گسترش هوش مصنوعی در حوزه‌های مختلف، مسائل اخلاقی و قانونی پیرامون این فناوری به بحث‌های داغ تبدیل شده است. از حفظ حریم خصوصی کاربران گرفته تا نگرانی‌ها در مورد اشتغال و جایگزینی انسان‌ها توسط ماشین‌ها، این موضوعات نیازمند توجه ویژه‌ای از سوی دولت‌ها و شرکت‌های فناوری است."
+        }
+      ],
+      "creationDate": "1403/7/11",
+      "rating": "4.2",
+      "conclusion": "هوش مصنوعی در سال 2024 به یکی از مهم‌ترین عوامل تحول در صنایع مختلف تبدیل شده است. از بهبود تشخیص بیماری‌ها در پزشکی تا تحولات در خودروهای خودران و امنیت سایبری، این فناوری به سرعت در حال پیشرفت است. با این حال، موضوعات اخلاقی و قانونی همچنان چالش‌هایی برای آینده هوش مصنوعی به شمار می‌روند و نیازمند همکاری گسترده بین نهادهای مختلف هستند."
+    },
+    {
+      "id": "2",
+      "image": "https://th.bing.com/th/id/OIP.NztfNu6p_efe7yI8BXI4iAHaEK?w=285&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      "title": "ربات‌های هوش مصنوعی انسان‌نما: آینده‌ای که از راه رسیده است",
+      "introduction": "ربات‌های هوش مصنوعی انسان‌نما به یکی از جذاب‌ترین و بحث‌برانگیزترین حوزه‌های تکنولوژی در سال‌های اخیر تبدیل شده‌اند. این ربات‌ها با بهره‌گیری از هوش مصنوعی پیشرفته و طراحی‌هایی که سعی در تقلید حرکات و ظاهر انسان دارند، قابلیت انجام فعالیت‌های پیچیده و تعاملات انسانی را به دست آورده‌اند. اما چرا این فناوری تا این اندازه مورد توجه قرار گرفته است؟ و چه تأثیری بر آینده خواهد داشت؟ در این مقاله به بررسی آخرین تحولات و چالش‌های پیش‌روی ربات‌های هوش مصنوعی انسان‌نما می‌پردازیم.",
+      "body": [
+        {
+          "title": "1. ربات‌های انسان‌نما: چه چیزی آن‌ها را از دیگر ربات‌ها متمایز می‌کند؟",
+          "caption": "ربات‌های انسان‌نما به گونه‌ای طراحی شده‌اند که به لحاظ فیزیکی و حرکتی شباهت زیادی به انسان داشته باشند. این ربات‌ها معمولاً دارای بازوها، پاها، و صورت‌هایی با قابلیت‌های حرکتی شبیه به انسان هستند. اما آنچه که این ربات‌ها را از سایر ربات‌ها متمایز می‌کند، استفاده از هوش مصنوعی است که به آن‌ها اجازه می‌دهد تا به صورت طبیعی با انسان‌ها تعامل کنند، یاد بگیرند و حتی تصمیم‌گیری کنند."
+        },
+        {
+          "title": "2. کاربردهای ربات‌های انسان‌نما در دنیای امروز",
+          "caption": "در حال حاضر، ربات‌های انسان‌نما در صنایع مختلف کاربردهای زیادی پیدا کرده‌اند. از نقش‌های کمکی در محیط‌های خدماتی گرفته تا تحقیقات فضایی و پزشکی، این ربات‌ها به تدریج به یک بخش جدایی‌ناپذیر از زندگی ما تبدیل می‌شوند."
+        },
+        {
+          "title": "4. آینده ربات‌های هوش مصنوعی انسان‌نما: از رویا تا واقعیت",
+          "caption": "اگرچه ربات‌های هوش مصنوعی انسان‌نما هنوز در مرحله توسعه قرار دارند، اما آینده‌ای که این فناوری به تصویر می‌کشد، بسیار جذاب و هیجان‌انگیز است. در آینده نزدیک، این ربات‌ها می‌توانند در خانه‌ها، محیط‌های کاری و حتی فضاهای عمومی به کار گرفته شوند تا زندگی روزمره انسان‌ها را آسان‌تر و هوشمندتر کنند."
+        },
+        {
+          "title": "5. ربات‌های انسان‌نما در فرهنگ عامه",
+          "caption": "ربات‌های انسان‌نما نه تنها در دنیای واقعی بلکه در فیلم‌ها و سریال‌ها نیز جایگاه ویژه‌ای پیدا کرده‌اند. از فیلم‌های علمی تخیلی گرفته تا سریال‌های محبوب تلویزیونی، این ربات‌ها همواره به عنوان نمادی از آینده تکنولوژی و روابط انسان با ماشین‌ها به تصویر کشیده شده‌اند."
+        }
+      ],
+      "creationDate": "1403/3/21",
+      "rating": "4.5",
+      "conclusion": "ربات‌های هوش مصنوعی انسان‌نما به عنوان یکی از پیشروترین و پرچالش‌ترین حوزه‌های تکنولوژی در حال توسعه هستند. این ربات‌ها با قابلیت‌هایی که به تقلید از رفتار و تعاملات انسانی طراحی شده‌اند، به سرعت در حال تبدیل شدن به یک بخش مهم از زندگی روزمره ما هستند. هرچند که چالش‌های فنی و اخلاقی همچنان وجود دارند، اما آینده این فناوری بسیار درخشان و پرامید است."
+    },
+    {
+      "id": "3",
+      "image": "https://th.bing.com/th/id/OIP.qAp404m16RcIXjO7ieqLUgHaEK?w=275&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      "title": "چگونه در حرفه برنامه‌نویسی فرانت‌اند پیشرفت کنیم؟",
+      "introduction": "حوزه برنامه‌نویسی فرانت‌اند (Front-End Development) یکی از پرطرفدارترین و پویاترین بخش‌های فناوری اطلاعات است. با رشد روزافزون تکنولوژی‌های وب و افزایش تقاضا برای وب‌سایت‌ها و اپلیکیشن‌های کاربرپسند، برنامه‌نویسان فرانت‌اند با فرصت‌های زیادی برای رشد و توسعه حرفه‌ای روبه‌رو هستند. اما برای موفقیت در این حوزه چه باید کرد؟ در این مقاله، راهکارهایی را برای ارتقای مهارت‌ها و دستیابی به موفقیت در حوزه برنامه‌نویسی فرانت‌اند ارائه خواهیم داد.",
+      "body": [
+        {
+          "title": "1. تسلط بر HTML، CSS و JavaScript",
+          "caption": "سه زبان اصلی که هر برنامه‌نویس فرانت‌اند باید بر آن‌ها تسلط کامل داشته باشد، HTML، CSS و JavaScript هستند. این سه زبان پایه و اساس هر وب‌سایتی را تشکیل می‌دهند.",
+          "subTitle": [
+            {
+              "title": "HTML",
+              "caption": "برای ایجاد ساختار صفحات وب. شما باید با تگ‌های مختلف HTML و نحوه استفاده از آن‌ها برای ساختاردهی مناسب صفحات آشنا باشید."
+            },
+            {
+              "title": "CSS",
+              "caption": "برای طراحی و زیباسازی وب‌سایت‌ها. تسلط بر تکنیک‌های پیشرفته CSS مانند Flexbox و Grid Layout برای طراحی رابط کاربری‌های پیچیده ضروری است."
+            },
+            {
+              "title": "JavaScript",
+              "caption": " برای ایجاد تعاملات پویا و هوشمند. یادگیری اصول جاوااسکریپت و آشنایی با مفاهیم پیشرفته‌تری مثل Async، Closures و ES6+ از ملزومات موفقیت در این حوزه است."
+            }
+          ]
+        },
+        {
+          "title": "2. یادگیری فریم‌ورک‌ها و کتابخانه‌های پرکاربرد",
+          "caption": "هرچند تسلط بر اصول پایه HTML، CSS و JavaScript مهم است، اما یادگیری فریم‌ورک‌ها و کتابخانه‌های مدرن باعث می‌شود بتوانید پروژه‌های پیچیده‌تر و کارآمدتری بسازید.",
+          "subTitle": [
+            {
+              "title": "React",
+              "caption": " یکی از پرطرفدارترین کتابخانه‌های جاوااسکریپت است که توسط Facebook توسعه داده شده و برای ساخت رابط‌های کاربری مدرن بسیار مناسب است. آشنایی با مفاهیمی مانند کامپوننت‌ها، هوک‌ها و مدیریت استیت در React از اهمیت بالایی برخوردار است."
+            },
+            {
+              "title": "Vue.js",
+              "caption": "یک فریم‌ورک سبک و ساده برای ساخت رابط‌های کاربری که به دلیل سادگی و انعطاف‌پذیری‌اش به‌سرعت در حال رشد است."
+            },
+            {
+              "title": "Angular",
+              "caption": "فریم‌ورکی قدرتمند و جامع برای ساخت اپلیکیشن‌های تک‌صفحه‌ای (SPA). اگر به دنبال پروژه‌های بزرگ‌تر و سازمانی هستید، Angular انتخاب خوبی است."
+            }
+          ]
+        },
+        {
+          "title": "3. کار با ابزارهای توسعه و دیباگ",
+          "caption": "به عنوان یک برنامه‌نویس فرانت‌اند حرفه‌ای، باید با ابزارها و تکنیک‌های دیباگ و توسعه وب آشنا باشید. این ابزارها به شما کمک می‌کنند کدهای خود را بهینه کرده و مشکلات را به‌سرعت رفع کنید.",
+          "subTitle": [
+            {
+              "title": "Chrome DevTools",
+              "caption": "یک ابزار قدرتمند برای تحلیل و دیباگ صفحات وب که به شما امکان می‌دهد عملکرد کدهای جاوااسکریپت، CSS و HTML را بررسی کنید."
+            },
+            {
+              "title": "Postman",
+              "caption": "برای تست API‌ها و ارتباطات سمت سرور. این ابزار به شما کمک می‌کند تا درخواست‌های HTTP را به راحتی مدیریت کنید و پاسخ‌ها را تجزیه و تحلیل کنید."
+            }
+          ]
+        },
+        {
+          "title": "4. آشنایی با اصول طراحی تجربه کاربری (UX) و رابط کاربری (UI)",
+          "caption": "توسعه‌دهندگان فرانت‌اند علاوه بر کدنویسی، باید با اصول طراحی تجربه کاربری (UX) و رابط کاربری (UI) نیز آشنا باشند. درک نیازهای کاربر و ایجاد طراحی‌هایی که تجربه کاربری خوبی ارائه دهند، بخش مهمی از وظایف یک برنامه‌نویس فرانت‌اند است.",
+          "subTitle": [
+            {
+              "title": "طراحی واکنش‌گرا",
+              "caption": "صفحات وب باید در انواع دستگاه‌ها (موبایل، تبلت، دسکتاپ) به خوبی نمایش داده شوند. استفاده از تکنیک‌های طراحی واکنش‌گرا با CSS Media Queries و فریم‌ورک‌هایی مانند Bootstrap از اهمیت بالایی برخوردار است."
+            },
+            {
+              "title": "طراحی کاربرپسند",
+              "caption": "شما باید یاد بگیرید چگونه المان‌های رابط کاربری را به گونه‌ای طراحی کنید که کاربر به راحتی بتواند با آن‌ها تعامل کند. این شامل نحوه چیدمان محتوا، استفاده از رنگ‌ها و تایپوگرافی است."
+            }
+          ]
+        },
+        {
+          "title": "5. آشنایی با ابزارهای مدیریت پروژه و کنترل نسخه",
+          "caption": "برای موفقیت در یک تیم توسعه نرم‌افزار، باید با ابزارهای مدیریت پروژه و کنترل نسخه آشنا باشید. Git یکی از محبوب‌ترین سیستم‌های کنترل نسخه است که به شما کمک می‌کند تغییرات کد را پیگیری کرده و در تیم‌های توسعه به‌راحتی همکاری کنید.",
+          "subTitle": [
+            {
+              "title": "Git و GitHub",
+              "caption": "تسلط بر Git و کار با پلتفرم‌هایی مانند GitHub برای مدیریت کد و همکاری با تیم‌های توسعه بسیار مهم است."
+            },
+            {
+              "title": "مدیریت وظایف",
+              "caption": "آشنایی با ابزارهایی مثل Trello، Jira و Asana برای مدیریت پروژه و برنامه‌ریزی وظایف کمک می‌کند تا در پروژه‌های تیمی بهره‌وری بیشتری داشته باشید."
+            }
+          ]
+        }
+      ],
+      "creationDate": "1403/2/23",
+      "rating": "3.2",
+      "conclusion": "برنامه‌نویسی فرانت‌اند یک حوزه پویا و جذاب است که فرصت‌های شغلی زیادی را در اختیار توسعه‌دهندگان قرار می‌دهد. با تمرکز بر یادگیری تکنولوژی‌های پایه، تسلط بر فریم‌ورک‌ها و ابزارهای جدید، و شرکت در پروژه‌های متن‌باز و تمرین مداوم، می‌توانید به یک برنامه‌نویس فرانت‌اند حرفه‌ای تبدیل شوید و در این صنعت پیشرفت کنید."
+    },
+    {
+      "id": "4",
+      "image": "https://th.bing.com/th/id/OIP.yr5tDBBOVrY77touUaTHCwHaDt?w=299&h=175&c=7&r=0&o=5&dpr=1.1&pid=1.7",
+      "title": "چگونه به یک برنامه‌نویس حرفه‌ای جاوا اسکریپت تبدیل شویم؟",
+      "introduction": "جاوا اسکریپت (JavaScript) به عنوان یکی از پرکاربردترین زبان‌های برنامه‌نویسی وب، توانسته جایگاه ویژه‌ای در دنیای توسعه نرم‌افزار پیدا کند. چه بخواهید یک اپلیکیشن تک‌صفحه‌ای (SPA) بسازید، چه بخواهید به توسعه سمت سرور بپردازید، جاوا اسکریپت در هر دو بخش فرانت‌اند و بک‌اند نقش اساسی دارد. در این مقاله قصد داریم به بررسی مراحل مختلف رشد حرفه‌ای در جاوا اسکریپت بپردازیم و مسیرهایی را برای تبدیل شدن به یک برنامه‌نویس حرفه‌ای معرفی کنیم.",
+      "body": [
+        {
+          "title": "1. درک اصول پایه جاوا اسکریپت",
+          "caption": "اگرچه جاوا اسکریپت یک زبان برنامه‌نویسی سطح بالا و منعطف است، اما یادگیری اصول پایه‌ای آن بسیار اهمیت دارد. برای تبدیل شدن به یک برنامه‌نویس حرفه‌ای، ابتدا باید مفاهیم اولیه جاوا اسکریپت را به خوبی درک کنید.",
+          "subTitle": [
+            {
+              "title": "متغیرها و انواع داده‌ها",
+              "caption": "جاوا اسکریپت دارای انواع داده‌ای مختلفی مانند String، Number، Boolean، Object، و Array است. یادگیری نحوه تعریف و استفاده از این داده‌ها یکی از اولین گام‌ها برای تسلط بر جاوا اسکریپت است."
+            },
+            {
+              "title": "توابع و اسکوپ",
+              "caption": "جاوا اسکریپت توابع (Functions) را به عنوان بخش مهمی از برنامه‌نویسی خود ارائه می‌دهد. آشنایی با مفاهیم اسکوپ (Scope)، هوئیستینگ (Hoisting) و کلوزر (Closure) از مباحث ضروری برای درک عمیق‌تر این زبان است."
+            },
+            {
+              "title": "عبارات شرطی و حلقه‌ها",
+              "caption": " استفاده از شرط‌ها (If/Else)، حلقه‌ها (For، While) و توابع تکراری به شما کمک می‌کند تا منطق پیچیده‌تری را در پروژه‌های خود پیاده‌سازی کنید."
+            }
+          ]
+        },
+        {
+          "title": "2. آشنایی با اصول برنامه‌نویسی شی‌گرا (OOP) در جاوا اسکریپت",
+          "caption": "جاوا اسکریپت به عنوان یک زبان شی‌گرا (Object-Oriented Programming) عمل می‌کند و مفاهیمی مانند اشیاء (Objects)، کلاس‌ها (Classes) و ارث‌بری (Inheritance) را در اختیار شما قرار می‌دهد. تسلط بر این مفاهیم به شما کمک می‌کند تا کدهای سازمان‌یافته‌تر و مقیاس‌پذیرتری بنویسید.",
+          "subTitle": [
+            {
+              "title": "کلاس‌ها و سازنده‌ها (Constructors)",
+              "caption": "در نسخه ES6 جاوا اسکریپت، کلاس‌ها به صورت رسمی معرفی شدند. با استفاده از کلاس‌ها، می‌توانید ساختارها و رفتارهای مختلفی برای اشیاء تعریف کنید."
+            },
+            {
+              "title": "ارث‌بری (Inheritance)",
+              "caption": "ارث‌بری به شما امکان می‌دهد که کلاس‌های جدید را از کلاس‌های موجود به ارث ببرید و رفتارهای آن‌ها را تغییر دهید."
+            },
+            {
+              "title": "اینترفیس‌ها و پلی‌مورفیسم",
+              "caption": "با درک اصول پیشرفته OOP، می‌توانید از تکنیک‌های پیچیده‌تری مثل پلی‌مورفیسم و اینترفیس‌ها استفاده کنید."
+            }
+          ]
+        },
+        {
+          "title": "3. درک اصول برنامه‌نویسی ناهمزمان (Asynchronous)",
+          "caption": "یکی از ویژگی‌های کلیدی جاوا اسکریپت، توانایی انجام برنامه‌نویسی ناهمزمان است که به شما اجازه می‌دهد کدهایی بنویسید که بدون مسدود کردن جریان اصلی، همزمان چندین کار را انجام دهند.",
+          "subTitle": [
+            {
+              "title": "Callbacks",
+              "caption": "در جاوا اسکریپت، فراخوانی‌های تو در تو (Nested Callbacks) یکی از روش‌های اصلی برای مدیریت برنامه‌نویسی ناهمزمان است، اما می‌تواند به ایجاد پدیده‌ای به نام 'Callback Hell' منجر شود."
+            },
+            {
+              "title": " Promise‌",
+              "caption": " Promise‌ها به شما کمک می‌کنند تا جریان‌های ناهمزمان را مدیریت کرده و کدهای خواناتری بنویسید. با استفاده از Promise‌ها، می‌توانید به سادگی وضعیت عملیات‌های ناهمزمان را پیگیری کنید."
+            },
+            {
+              "title": "Async/Await",
+              "caption": "یکی از جدیدترین روش‌ها برای مدیریت برنامه‌نویسی ناهمزمان استفاده از کلمات کلیدی async و await است. این روش به شما اجازه می‌دهد کدهای ناهمزمان را به شکل ساده‌تری بنویسید و کار با Promise‌ها را آسان‌تر کنید."
+            }
+          ]
+        },
+        {
+          "title": "4. آشنایی با فریم‌ورک‌ها و کتابخانه‌های جاوا اسکریپت",
+          "caption": "جاوا اسکریپت به دلیل انعطاف‌پذیری و گستردگی استفاده، دارای فریم‌ورک‌ها و کتابخانه‌های متعددی است که هر کدام از آن‌ها به شما کمک می‌کنند تا پروژه‌های بزرگ‌تر و پیچیده‌تر را مدیریت کنید.",
+          "subTitle": [
+            {
+              "title": "React",
+              "caption": " یکی از پرطرفدارترین کتابخانه‌های جاوااسکریپت است که توسط Facebook توسعه داده شده و برای ساخت رابط‌های کاربری مدرن بسیار مناسب است. آشنایی با مفاهیمی مانند کامپوننت‌ها، هوک‌ها و مدیریت استیت در React از اهمیت بالایی برخوردار است."
+            },
+            {
+              "title": "Vue.js",
+              "caption": "یک فریم‌ورک سبک و ساده برای ساخت رابط‌های کاربری که به دلیل سادگی و انعطاف‌پذیری‌اش به‌سرعت در حال رشد است."
+            },
+            {
+              "title": "Angular",
+              "caption": "فریم‌ورکی قدرتمند و جامع برای ساخت اپلیکیشن‌های تک‌صفحه‌ای (SPA). اگر به دنبال پروژه‌های بزرگ‌تر و سازمانی هستید، Angular انتخاب خوبی است."
+            }
+          ]
+        },
+        {
+          "title": "5. کار با ابزارها و محیط‌های توسعه جاوا اسکریپت",
+          "caption": "برای اینکه به یک برنامه‌نویس حرفه‌ای جاوا اسکریپت تبدیل شوید، باید با ابزارها و محیط‌های توسعه مختلفی که به بهبود و تسهیل کدنویسی کمک می‌کنند، آشنا باشید.",
+          "subTitle": [
+            {
+              "title": "Node.js",
+              "caption": "محیطی سمت سرور که به شما امکان می‌دهد کدهای جاوا اسکریپت را در سمت سرور اجرا کنید. با استفاده از Node.js می‌توانید اپلیکیشن‌های وب مقیاس‌پذیر و قدرتمند بسازید."
+            },
+            {
+              "title": "npm",
+              "caption": "مدیر بسته جاوا اسکریپت (Node Package Manager) که به شما اجازه می‌دهد کتابخانه‌ها و پکیج‌های مختلف را به پروژه‌های خود اضافه کنید."
+            },
+            {
+              "title": "Webpack و Babel",
+              "caption": "این دو ابزار به شما کمک می‌کنند تا کدهای جاوا اسکریپت خود را بهینه‌سازی کنید و از جدیدترین ویژگی‌های ES6+ استفاده کنید، حتی در مرورگرهایی که به‌روز نیستند."
+            }
+          ]
+        },
+        {
+          "title": "6. نوشتن تست‌های خودکار",
+          "caption": "یکی از مهم‌ترین مهارت‌ها برای یک برنامه‌نویس حرفه‌ای جاوا اسکریپت، نوشتن تست‌های خودکار (Automated Tests) است. تست‌نویسی به شما کمک می‌کند تا از صحت عملکرد کدهای خود اطمینان حاصل کنید و باگ‌ها را قبل از ورود به محیط عملیاتی شناسایی کنید.",
+          "subTitle": [
+            {
+              "title": "Jest",
+              "caption": "یک فریم‌ورک تست قدرتمند و پرکاربرد برای جاوا اسکریپت که توسط Facebook توسعه داده شده است. Jest به شما امکان می‌دهد تست‌های واحد (Unit Tests) و تست‌های یکپارچه (Integration Tests) را به سادگی بنویسید."
+            },
+            {
+              "title": "Mocha و Chai:",
+              "caption": " دو ابزار محبوب دیگر برای تست‌نویسی در جاوا اسکریپت هستند که ترکیب آن‌ها به شما کمک می‌کند تست‌های انعطاف‌پذیر و قدرتمندی بنویسید."
+            }
+          ]
+        }
+      ],
+      "creationDate": "1402/5/16",
+      "rating": "3.8",
+      "conclusion": "جاوا اسکریپت یکی از زبان‌های اصلی توسعه وب است و تبدیل شدن به یک برنامه‌نویس حرفه‌ای در این زبان نیازمند یادگیری مداوم و تمرین مستمر است. با تسلط بر مفاهیم پایه، یادگیری فریم‌ورک‌ها و ابزارهای جدید، و حل مسائل چالشی، می‌توانید در این حوزه پیشرفت کرده و به یک توسعه‌دهنده جاوا اسکریپت موفق"
+    },
+    {
+      "id": "5",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBWFDu0TvCpnPZN3t_3YJ3wHt6dHFb9gPRNQ&s",
+      "title": "از نوآموز تا هکر حرفه‌ای: نقشه راه امنیت سایبری",
+      "introduction": "هک کردن دیگر تنها به معنای نفوذ به سیستم‌های امنیتی نیست، بلکه به‌عنوان مهارتی شناخته می‌شود که می‌تواند هم در دنیای سایبری مفید باشد و هم به توسعه تکنولوژی و امنیت کمک کند. هکرهای حرفه‌ای، معروف به 'هکر کلاه سفید' (White Hat Hackers)، در واقع به سازمان‌ها کمک می‌کنند تا نقاط ضعف امنیتی خود را کشف و رفع کنند. در این مقاله به بررسی مسیر هکر حرفه‌ای شدن پرداخته‌ایم و مراحلی را برای رسیدن به این هدف پیشنهاد می‌دهیم.",
+      "body": [
+        {
+          "title": "1. درک اصول شبکه‌های کامپیوتری و امنیت سایبری",
+          "caption": "اولین گام در مسیر هکر حرفه‌ای شدن، داشتن دانش عمیق در مورد شبکه‌های کامپیوتری و امنیت سایبری است. بدون تسلط بر این اصول، شما نمی‌توانید به طور موثری به نقاط ضعف امنیتی پی ببرید یا حملات سایبری را تشخیص دهید.",
+          "subTitle": [
+            {
+              "title": "پروتکل‌های شبکه",
+              "caption": " آشنایی با پروتکل‌های مختلف شبکه مانند TCP/IP، HTTP، DNS و غیره ضروری است. هر هکری باید بداند که چگونه داده‌ها در شبکه حرکت می‌کنند و از چه مکانیسم‌هایی استفاده می‌شود."
+            },
+            {
+              "title": "مدل OSI",
+              "caption": " مدل OSI به شما کمک می‌کند تا فرآیند انتقال داده در شبکه را به‌صورت لایه به لایه درک کنید و نقاط ضعف امنیتی را در هر یک از این لایه‌ها شناسایی کنید."
+            },
+            {
+              "title": "رمزنگاری و رمزگشایی",
+              "caption": "هکرهای حرفه‌ای باید با الگوریتم‌های رمزنگاری مانند AES، RSA، و MD5 آشنا باشند و بدانند که چگونه داده‌ها را به‌صورت ایمن ذخیره و منتقل کنند."
+            }
+          ]
+        },
+        {
+          "title": "2. یادگیری سیستم‌های عامل و ساختار داخلی آن‌ها",
+          "caption": "هکرهای حرفه‌ای باید به خوبی با سیستم‌عامل‌های مختلف از جمله لینوکس، ویندوز و مک آشنا باشند. بیشتر هکرها از سیستم‌عامل‌های مبتنی بر لینوکس مانند Kali Linux استفاده می‌کنند که ابزارهای متعددی برای هک و تست نفوذ در اختیار آن‌ها قرار می‌دهد.",
+          "subTitle": [
+            {
+              "title": "لینوکس",
+              "caption": " تسلط بر دستورات لینوکس از ضروریات هکرهای حرفه‌ای است. سیستم‌عامل لینوکس به دلیل امنیت بالا و انعطاف‌پذیری بیشتر، در میان هکرها بسیار محبوب است."
+            },
+            {
+              "title": "ویندوز",
+              "caption": " اگرچه لینوکس محبوب‌ترین سیستم‌عامل در دنیای هکرها است، اما هکرهای حرفه‌ای باید نقاط ضعف ویندوز را نیز بشناسند، چرا که بسیاری از سیستم‌های هدف از این سیستم‌عامل استفاده می‌کنند."
+            },
+            {
+              "title": "مدیریت دسترسی‌ها",
+              "caption": "شناخت دقیق سیستم مدیریت دسترسی در هر سیستم‌عامل به شما کمک می‌کند تا از روش‌های مختلف برای نفوذ یا حفاظت از سیستم‌ها استفاده کنید."
+            }
+          ]
+        },
+        {
+          "title": "3. یادگیری زبان‌های برنامه‌نویسی",
+          "caption": "هکرهای حرفه‌ای نیاز به تسلط بر چندین زبان برنامه‌نویسی دارند تا بتوانند کدهای مخرب (Malware)، ابزارهای هک، و تست‌های نفوذ خودکار ایجاد کنند. علاوه بر این، زبان‌های برنامه‌نویسی برای تحلیل کدهای موجود و شناسایی نقاط ضعف برنامه‌ها نیز ضروری هستند.",
+          "subTitle": [
+            {
+              "title": "Python",
+              "caption": "پایتون یکی از محبوب‌ترین زبان‌های برنامه‌نویسی برای هکرهاست. با استفاده از پایتون، شما می‌توانید ابزارهای خود را توسعه دهید و فرآیندهای خودکار ایجاد کنید."
+            },
+            {
+              "title": "JavaScript",
+              "caption": "آشنایی با جاوا اسکریپت برای هک کردن وب‌سایت‌ها و برنامه‌های تحت وب بسیار مهم است. بسیاری از حملات سایبری مانند XSS (Cross-Site Scripting) از طریق جاوا اسکریپت انجام می‌شوند."
+            }
+          ]
+        },
+        {
+          "title": "4. یادگیری تست نفوذ (Penetration Testing)",
+          "caption": "تست نفوذ، یکی از مهم‌ترین ابزارهای هکرهای کلاه‌سفید برای ارزیابی امنیت سیستم‌ها و شناسایی نقاط ضعف است. تست نفوذ شامل فرآیند شبیه‌سازی حملات واقعی سایبری برای یافتن ضعف‌ها و رفع آن‌ها قبل از نفوذ هکرهای واقعی است.",
+          "subTitle": [
+            {
+              "title": "تست نفوذ شبکه",
+              "caption": "بررسی امنیت شبکه‌ها از طریق اسکن پورت‌ها، بررسی پروتکل‌ها و کشف نقاط ضعف سیستم‌های داخلی."
+            },
+            {
+              "title": "تست نفوذ وب‌سایت‌ها:",
+              "caption": "جستجوی حفره‌های امنیتی در وب‌سایت‌ها از طریق ابزارهایی مانند OWASP ZAP و Burp Suite."
+            },
+            {
+              "title": "تست نفوذ فیزیکی",
+              "caption": "در برخی موارد، هکرهای حرفه‌ای حتی به نقاط فیزیکی دسترسی پیدا می‌کنند تا سیستم‌های امنیتی و محافظتی را بررسی کنند."
+            }
+          ]
+        },
+        {
+          "title": "5. آشنایی با ابزارهای هک و امنیت",
+          "caption": "هکرهای حرفه‌ای از مجموعه‌ای از ابزارهای تخصصی استفاده می‌کنند که برای ارزیابی امنیت سیستم‌ها و شبیه‌سازی حملات به کار می‌روند. این ابزارها می‌توانند نقاط ضعف امنیتی را کشف و شناسایی کنند.",
+          "subTitle": [
+            {
+              "title": "Nmap",
+              "caption": " ابزار محبوب برای اسکن شبکه‌ها و کشف پورت‌های باز و سرویس‌های فعال."
+            },
+            {
+              "title": "Metasploit",
+              "caption": "یکی از بهترین ابزارهای تست نفوذ که به شما امکان می‌دهد به‌سرعت از آسیب‌پذیری‌های سیستم‌ها استفاده کنید."
+            },
+            {
+              "title": "Wireshark",
+              "caption": " ابزاری برای تحلیل ترافیک شبکه و شناسایی الگوهای مشکوک."
+            }
+          ]
+        },
+        {
+          "title": "6. آشنایی با قوانین و اخلاقیات هک",
+          "caption": "هرچند مهارت‌های فنی برای هکرهای حرفه‌ای بسیار مهم است، اما آشنایی با قوانین سایبری و اخلاقیات هک نیز از اهمیت بالایی برخوردار است. هکرهای کلاه‌سفید در چارچوب قانونی فعالیت می‌کنند و هدفشان افزایش امنیت سیستم‌ها و سازمان‌ها است.",
+          "subTitle": [
+            {
+              "title": "قوانین جرائم سایبری",
+              "caption": "آشنایی با قوانین مرتبط با جرائم سایبری در کشورها مختلف ضروری است تا هکرها از نظر قانونی مشکلی نداشته باشند."
+            },
+            {
+              "title": "اخلاقیات هک",
+              "caption": "هکرهای کلاه‌سفید باید همیشه به اصول اخلاقی پایبند باشند و هرگونه فعالیت مشکوک و غیرقانونی را گزارش دهند."
+            }
+          ]
+        }
+      ],
+      "creationDate": "1402/4/12",
+      "rating": "4.3",
+      "conclusion": "تبدیل شدن به یک هکر حرفه‌ای نیازمند تلاش، مطالعه و تمرین مداوم است. با یادگیری اصول شبکه، برنامه‌نویسی، تست نفوذ و آشنایی با ابزارها و قوانین مرتبط با هک، می‌توانید مسیر خود را به‌عنوان یک هکر کلاه‌سفید حرفه‌ای آغاز کنید و در امنیت سایبری نقشی اساسی ایفا کنید."
+    }
+  ],
+  "notifications": [
+    {
+      "title": "دوره آموزش پایتون مقدماتی به صورت رایگان منتشر شد!",
+      "creationDate": "1403/2/23",
+      "id": "03f7"
+    },
+    {
+      "title": "!دوره آموزشی طراحی قالب وردپرس منتشر شد",
+      "creationDate": "1403/6/16",
+      "id": "0f44"
+    },
+    {
+      "title": "دوره آموزش تخصصی زبان سی پلاس پلاس با تخفیف ویژه 20 درصد منتشر شد!",
+      "creationDate": "1403/7/16",
+      "id": "0aa5"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "user",
+      "lastname":"test",
+      "email": "test@example.com",
+      "password": "Test@1234"
+    },
+    {
+      "id": "d2ab",
+      "name": "فرزانه",
+      "lastname": "رحمتی",
+      "email": "farzanerahmati.1377@gmail.com",
+      "password": "FaRa1377!"
+    }
+  ],
+  "shoppingCartItemsId": [],
+  "registeredCoursesId": []
+}
