@@ -39,7 +39,7 @@ const AboutTeacherPage = () => {
 
   return (
     <>
-      <section className="bg-white">
+      <section className="bg-white pb-20">
         <div className="flex flex-col  gap-5">
           <img src={AboutTeacherBanner} className="w-full" />
 
@@ -94,7 +94,12 @@ const AboutTeacherPage = () => {
               <div className="flex justify-center gap-5">
                 <div className="flex flex-col gap-5 ">
                   {teahcerCourses?.map((course) => (
-                    <Link to={`/courses/course/${course.id}`} key={course.id}>
+                    <Link
+                      to={`/courses/course/${course.id}-${useCleanString(
+                        course.title
+                      )}`}
+                      key={course.id}
+                    >
                       <div className="hidden lg:block">
                         <HorizontalCourseCard {...course} />
                       </div>

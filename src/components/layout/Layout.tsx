@@ -12,7 +12,7 @@ const Layout = ({ children }: ILayout) => {
       <ScrollToTop />
       <Header />
       <Navbar />
-      <div className="flex-1 pb-10  ">{children}</div>
+      <div className="flex-1 ">{children}</div>
       <Footer />
     </div>
   );

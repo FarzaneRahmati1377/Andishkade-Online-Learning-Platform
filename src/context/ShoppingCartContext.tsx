@@ -1,9 +1,7 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import { ICourse, IId } from "../types/server";
 import {
-  AddCourseIdToShoppingCart,
   client,
-  getCourse,
   getCoursesById,
 
 } from "../services/api";

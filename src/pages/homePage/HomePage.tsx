@@ -33,7 +33,7 @@ const HomePage = () => {
   }, [allCourses]);
 
   return (
-    <div className="flex flex-col text-gray-500">
+    <div className="flex flex-col pb-20 text-gray-500">
       <Slider
         slidesPerView={1}
         id="Banner-slider"

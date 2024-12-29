@@ -1,5 +1,5 @@
 import HomePage from "./pages/homePage/HomePage";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import { CoursesProvider } from "./context/CoursesContext";
 import CoursesPage from "./pages/coursesPage/CoursesPage";
@@ -33,6 +33,7 @@ function App() {
                   <Routes>
                     <Route path="*" element={<NotFoundPage />} />
                     <Route path="/" element={<HomePage />} />
+                    <Route path="/Andishkade-Online-Learning-Platform" element={<HomePage />} />
                     <Route path="/courses" element={<CoursesPage />} />
                     <Route
                       path="/courses/:en_title"

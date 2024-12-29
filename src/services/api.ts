@@ -1,8 +1,9 @@
 import axios from "axios";
-import { ICourse, IShoppingCartItem, IUpdateUser, IUser, IId, ICurriculumInfo, IVideo, ICurriculum, ITeacher } from "../types/server";
+import { IUser, IId, ICurriculumInfo, IVideo, ITeacher } from "../types/server";
 
 export const client = axios.create({
-    baseURL:'http://localhost:8000',
+     baseURL:'http://localhost:3000',
+     
 });
 
 export async function getCategories(){

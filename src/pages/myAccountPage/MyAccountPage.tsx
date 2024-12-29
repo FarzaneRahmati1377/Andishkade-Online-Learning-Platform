@@ -6,7 +6,7 @@ import UserPanelSwitchBox from "../../components/userPanelSwitchBox/UserPanelSwi
 
 const MyAccountPage = () => {
   return (
-    <div className="bg-gray-100 ">
+    <div className="bg-gray-100  ">
       <div className="flex justify-between h-full  gap-5 py-10 lg:w-3/4 mx-2 lg:mx-auto">
         <div className="hidden md:block ">
           <UserPanelSwitchBox />

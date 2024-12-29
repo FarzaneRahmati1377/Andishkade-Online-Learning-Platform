@@ -16,7 +16,7 @@ const TeachersPage = () => {
     page * itemsPerPage
   );
   const handleChangePageNumber = (
-    event: React.ChangeEvent<unknown>,
+    _: React.ChangeEvent<unknown>, 
     value: number
   ) => {
     setPage(value);
@@ -51,7 +51,7 @@ const TeachersPage = () => {
               <Pagination
                 count={pageCount}
                 page={page}
-                onChange={handleChangePageNumber}
+                onChange={(event, value) => handleChangePageNumber(event,value)}
                 color="primary"
                 variant="outlined"
                 shape="rounded"

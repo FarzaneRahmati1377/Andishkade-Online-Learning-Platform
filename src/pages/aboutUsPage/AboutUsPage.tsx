@@ -2,7 +2,7 @@ import teamMeetingSvg from "../../assets/svg/team-meeting-1-33.svg";
 import companySvg from "../../assets/svg/city-2-69.svg";
 const AboutUsPage = () => {
   return (
-    <div className="h-full bg-white">
+    <div className=" bg-white">
       <div className="bg-blue-500">
         <h3 className="font-semibold text-white py-3 px-5"> ما کی هستیم ؟</h3>
       </div>

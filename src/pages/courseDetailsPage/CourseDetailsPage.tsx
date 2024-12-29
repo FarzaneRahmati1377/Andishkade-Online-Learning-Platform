@@ -33,6 +33,7 @@ import HorizontalTeacherCard from "../../components/horizontalTeacherCard/Horizo
 import useToPersianDigits from "../../hooks/useToPersianDigits";
 import { useLoginContext } from "../../context/LoginContext";
 import { Alert } from "@mui/material";
+import useCleanString from "../../hooks/useCleanString";
 
 const CourseDetailsPage = () => {
   const { courseInfo } = useParams();
@@ -210,29 +211,31 @@ const CourseDetailsPage = () => {
     }
   };
   return (
-    <div className="flex bg-white flex-col gap-3">
+    <div className="flex bg-white pb-10 flex-col gap-3">
       <div className="relative">
         <img src={Banner} alt="" className="w-full h-full" />
-        <div className="flex flex-col gap-2 lg:gap-5  justify-center items-center absolute  lg:right-56 lg:translate-x-0 lg:left-auto left-1/2 -translate-x-1/2 top-0 bottom-0 text-xs lg:text-base ">
-          <h3 className="font-semibold  text-gray-100 ">{course?.title}</h3>
-          <div className="flex gap-5 items-center">
-            <img
-              src={teacher?.image}
-              className="w-10 h-10 lg:w-16 lg:h-16 rounded-full"
-            />
-            <div className="flex flex-col gap-2">
-              <span className="text-gray-100">{teacher?.fullName}</span>
-              <div className="flex items-center gap-2">
-                <StarIcon className="text-yellow-400" fontSize="small" />
-                {teacher?.rating && (
-                  <span className="text-yellow-400">
-                    {useToPersianDigits(teacher?.rating)}
-                  </span>
-                )}
+        {Banner && (
+          <div className="flex flex-col gap-2 lg:gap-5  justify-center items-center absolute  lg:right-56 lg:translate-x-0 lg:left-auto left-1/2 -translate-x-1/2 top-0 bottom-0 text-xs lg:text-base ">
+            <h3 className="font-semibold  text-gray-100 ">{course?.title}</h3>
+            <div className="flex gap-5 items-center">
+              <img
+                src={teacher?.image}
+                className="w-10 h-10 lg:w-16 lg:h-16 rounded-full"
+              />
+              <div className="flex flex-col gap-2">
+                <span className="text-gray-100">{teacher?.fullName}</span>
+                <div className="flex items-center gap-2">
+                  <StarIcon className="text-yellow-400" fontSize="small" />
+                  {teacher?.rating && (
+                    <span className="text-yellow-400">
+                      {useToPersianDigits(teacher?.rating)}
+                    </span>
+                  )}
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        )}
       </div>
 
       <DeepContainer>
@@ -268,7 +271,9 @@ const CourseDetailsPage = () => {
               </p>
             </section>
             <section id="curriculum" className="flex flex-col gap-3">
-              <h3 className="font-semibold text-sm lg:text-base">برنامه درسی</h3>
+              <h3 className="font-semibold text-sm lg:text-base">
+                برنامه درسی
+              </h3>
               <div className="flex flex-col gap-1 ">
                 {curriculumInfo?.map((curriculumInfo) => (
                   <CurriculumBox key={curriculumInfo.id} {...curriculumInfo} />
@@ -281,14 +286,19 @@ const CourseDetailsPage = () => {
                   <h3 className="font-semibold text-sm lg:text-base">
                     درباره استاد
                   </h3>
-                  <Link to={`/teachers/teacher/${teacher?.id}`}>
+                  <Link to={`/teachers/teacher/${teacher.id}-${useCleanString(
+                      teacher.fullName
+                    )}`}
+                    key={teacher.id}>
                     <HorizontalTeacherCard {...teacher} />
                   </Link>
                 </div>
               )}
             </section>
             <section id="questions" className="flex flex-col gap-3">
-              <h3 className="font-semibold text-sm lg:text-base">سوالات متداول</h3>
+              <h3 className="font-semibold text-sm lg:text-base">
+                سوالات متداول
+              </h3>
               <div className="flex flex-col gap-3">
                 {generalQuestions.map((generalQuestion) => (
                   <QuestionBox key={generalQuestion.id} {...generalQuestion} />
@@ -297,7 +307,7 @@ const CourseDetailsPage = () => {
             </section>
           </div>
           <div className="flex gap-5 flex-col">
-            <div className="flex flex-col w-full  h-fit lg:min-w-[300px]  justify-between border shadow p-4 rounded-md">
+            <div className="flex flex-col w-full  h-fit md:w-[300px] lg:w-[350px] xl:w-[400px]  justify-between border shadow p-4 rounded-md">
               <div className="flex w-full flex-col gap-5">
                 <div className="relative w-full  border rounded object-cover">
                   <video

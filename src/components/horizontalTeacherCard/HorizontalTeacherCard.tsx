@@ -11,7 +11,7 @@ const HorizontalTeacherCard = ({
 }: ITeacher) => {
   const { isPopularTeacher } = useTeachersContext();
   return (
-    <div className=" flex flex-col lg:flex-row items-center cursor-pointer relative gap-3 border  py-5 px-8 rounded-md leading-10 shaddow hover:shadow-md">
+    <div className=" flex flex-col xl:flex-row items-center cursor-pointer relative gap-3 border  py-5 px-8 rounded-md leading-10 shaddow hover:shadow-md">
       {isPopularTeacher(rating) ? (
         <WorkspacePremiumOutlinedIcon className="text-yellow-400 absolute left-[15px] top-[15px]" />
       ) : null}

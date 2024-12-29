@@ -18,13 +18,13 @@ const BlogsPage = () => {
     page * itemsPerPage
   );
   const handleChangePageNumber = (
-    event: React.ChangeEvent<unknown>,
+    _: React.ChangeEvent<unknown>,
     value: number
   ) => {
     setPage(value);
   };
   return (
-    <div>
+    <div className="pb-20">
       <img src={BlogsBannerSvg} className="w-full" />
       <DeepContainer>
         <div className="flex justify-center items-start gap-8 py-10 ">
@@ -56,7 +56,7 @@ const BlogsPage = () => {
               <Pagination
                 count={pageCount}
                 page={page}
-                onChange={handleChangePageNumber}
+                onChange={(event,value)=>handleChangePageNumber(event,value)}
                 color="primary"
                 variant="outlined"
                 shape="rounded"

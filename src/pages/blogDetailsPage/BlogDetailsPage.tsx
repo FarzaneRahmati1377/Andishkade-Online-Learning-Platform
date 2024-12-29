@@ -16,7 +16,7 @@ const BlogDetailsPage = () => {
   }, [id]);
 
   return (
-    <div className="w-dvw h-full p-5 border-t">
+    <div className="w-dvw h-full p-5 border-t pb-20">
       <DeepContainer>
      
         <div className="flex flex-col gap-5 px-1 lg:px-0">

@@ -4,6 +4,7 @@ import { useCategoriesContext } from "../../context/CategoryContext";
 import AppsIcon from "@mui/icons-material/Apps";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import { ISubCategory } from "../../types/server";
+import IconDisplay from "../iconDisplay/IconDisplay";
 
 const Tooltip = () => {
   const { categories } = useCategoriesContext();
@@ -45,31 +46,28 @@ const Tooltip = () => {
   };
 
   return (
-    <div className="relative h-full flex items-center"   onMouseLeave={handleMouseLeave}>
-    
+    <div
+      className="relative h-full flex items-center"
+    >
       <button
         className="flex items-center gap-1 cursor-pointer"
         onMouseEnter={() => setIsTooltipVisible(true)}
-      
       >
         <AppsIcon />
         <span className="shrink-0">دسته بندی</span>
       </button>
-       <div
+      <div
         className={`bg-white z-10 shadow-lg border rounded-lg overflow-hidden absolute top-[70px]  transition-opacity duration-700 ease-in-out ${
           isTooltipVisible ? " opacity-100" : " opacity-0 "
         }  origin-top-right  `}
         onMouseLeave={handleMouseLeave}
         style={{
-         minWidth:"250px",
-         maxWidth:"500px",
-          height: isTooltipVisible ? "500px" : "0", 
+          minWidth: "250px",
+          maxWidth: "500px",
+          height: isTooltipVisible ? "500px" : "0",
           transition: "height 0.3s ease-in-out, opacity 0.3s ease-in-out",
-          
         }}
       >
-        
- 
         <div
           id="child"
           className={` flex gap-1 py-2 transition-all duration-700 ease-in-out
@@ -93,7 +91,8 @@ const Tooltip = () => {
                   className="h-10 rounded px-2  w-full hover:bg-blue-50 hover:text-blue-500 mb-2 flex justify-between pr-2 items-center cursor-pointer"
                 >
                   <div className="flex gap-3 w-full items-center">
-                    <img src={category.icon} alt={category.title} />
+                    {category.icon && <IconDisplay iconName={category.icon} />}
+
                     <span>{category.title}</span>
                   </div>
 

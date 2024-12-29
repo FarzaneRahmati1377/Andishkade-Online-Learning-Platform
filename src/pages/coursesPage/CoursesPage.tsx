@@ -45,7 +45,7 @@ const CoursesPage = () => {
       isFirstRender.current = false;
       return;
     }
-    // handleSortingFilterChange("default");
+   
 
     const fetchAndSetFilteredCourses = async () => {
       const filteredCoursesByPrice = await filterCoursesByPrice(
@@ -99,7 +99,7 @@ const CoursesPage = () => {
     page * itemsPerPage
   );
   const handleChangePageNumber = (
-    event: React.ChangeEvent<unknown>,
+    _: React.ChangeEvent<unknown>,
     value: number
   ) => {
     setPage(value);
@@ -109,6 +109,7 @@ const CoursesPage = () => {
     event: React.ChangeEvent<HTMLInputElement>
   ) => {
     setSelectedPriceRangeFilter(event.target.value);
+    handleSortingFilterChange("default");
   };
   const handleSortingFilter = async (): Promise<ICourse[]> => {
     let filteredCourses: ICourse[];
@@ -284,7 +285,7 @@ const CoursesPage = () => {
   );
 
   return (
-    <div>
+    <div className="pb-10">
       <img src={CoursesBannerSvg} className="w-full" />
 
       <DeepContainer>
@@ -489,7 +490,7 @@ const CoursesPage = () => {
               <Pagination
                 count={pageCount}
                 page={page}
-                onChange={handleChangePageNumber}
+                onChange={(event,value)=>handleChangePageNumber(event,value)}
                 color="primary"
                 variant="outlined"
                 shape="rounded"
